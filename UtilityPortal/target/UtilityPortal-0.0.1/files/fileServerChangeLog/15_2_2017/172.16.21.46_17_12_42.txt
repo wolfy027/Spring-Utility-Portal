@@ -1,0 +1,549 @@
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	Wed Mar 15 17:12:42 IST 2017-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+Change made to File :		/files/fileServerPersistanceDirectory/test/ZS/ui/elements/chrome/UIElementSetup.json
+Computer Name :		ASHUTOSHM
+IP Addr :		172.16.21.46
+Client Browser :		Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	Text Before Change-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+{
+	byNameDic : {
+
+	},
+	byXpathDic : {
+	
+	"LOGIN_BUTTON"															 :			"//button[contains(@class,'btn btn-success') and contains(@type,'submit')]",
+	"APP_MARKET_SIGNUP"													 :			"//li[starts-with(@id,'menu-item')]/a[contains(@href,'siginuponly') and contains(.,'SIGN UP')]",
+	"APP_MARKET_ZS_SIGNUP"											 	 :			"//a[contains(@href,'#zipsch')]/parent::div[contains(@class,'appIcon')]",
+	"LOADING_LAYER"															 :			"//*[contains(@class,'app-market-loading')]			|		//*[@id='loader']",
+	"ZS_REGISTRATION_NAME_FIELD"									 :			"//input[@type='text' and @placeholder='Full Name' ]",
+	"ZS_REGISTRATION_EMAIL_FIELD"									 :			"//input[@type='email' and @placeholder='Email ID' ]",
+	"ZS_REGISTRATION_SIGN_UP_BUTTON"							 :			"//div[@class='signup-btn']//button",
+	"HUBWORKS_DROPDOWN"												 :			"(//*[@class='select2-arrow'])[DYN1]",
+	"HUBWORKS_MODAL_DROPDOWN"									 :			"(//div[contains(@class,'modal')]//*[@class='select2-arrow'])[DYN1]",
+	"DROPDOWN_AFTER_OPEN"											 :			"//div[contains(@class,'select2-result-label') and contains(.,'DYN1')]",
+	"ONBOARDING_NEXT_BUTTON"										 :			"//button[contains(@class,'btn') and contains(.,'DYN1')]",
+	"FORM_INPUT"																 	 :			"(//input[@type='text'   and contains(@class,'form-control')])[DYN1]",
+	"MODAL_BUTTON"															 :			"//*[contains(@class,'modal')]//button[contains(.,'DYN1')]",
+	"MODAL_DYN_INPUT"														 :			"(((//div[contains(@class,'modal')]//form//div[starts-with(@class,'row')])[DYN1])/div[contains(@class,'col')])[DYN2]//input",
+	"GUIDED_HELP_STEP_ACTION"										 :			"//*[contains(@class,'guided-help-step-action')]",
+	"INPUT_DROPDOWN_OPTION"										 :			"//div[contains(@class,'select2-result-label') and contains(.,'DYN1')]",
+	"NOTIF_BAR"																	 :			"//div[@id='ui_notifIt']",
+	"VIEW_MORE"																 	 :			"//h3[contains(text(), 'Zip Schedules')]/../following-sibling::td/a",
+	"GET_STARTED"															 	 :			"//a[text()='Get Started']",
+	"TEXTBOX_ALERT_TOOLTIP"											 :			"//div[contains(@class,'alert-danger') and contains(@style, 'display: block')]//span",
+	"EMAILID_EXISTS_ALERT"												 :			"//div[@class='panel-body']",
+	"ALERT_PROCEED_BUTTON"											 :			"//button[contains(., 'Proceed')]",
+	"OWNER_EMPLOYEE_TAB"												 :			"//span[text()='Employee']",
+	"ZS_REGISTRATION_EMPLOYEE_EMAIL"							 :			"//input[@type='text' and @placeholder='Email ID' ]",
+	"ZS_REGISTRATION_MANAGER_EMAIL"							 :			"//input[@type='text' and contains(@placeholder, 'Manager')]",
+	"EMPLOYEE_SIGNUP_ALERT"											 :			"//div[contains(@class, 'modal-body')]//label",
+	"ALERT_OK_BUTTON"														 :			"//button[text()='Ok']",
+	"HB_USERNAME"                       										 :          "(//input[@type='email' and @placeholder='Email ID'])[1]",
+	"HB_PASSWORD"                      										 :          "(//input[@type='password' and @placeholder='Password'])[1]",
+	"SITE_TABLE_ZIP_SCH"                									 :          "//div[contains(@class,'select-site-body')]//a[contains(.,'DYN1')]",
+	"ZS_SIDE_MENU_ITEM"			      									 :			"//a[starts-with(@id,'Menu')]//span//span[text()='DYN1']",
+	#"TABLE_CELL"																 :			"//table[@id='weekly-table']/tbody/tr[DYN1]/td[@id='scheduler-day-col'][DYN2]",
+	"CREATE_SHIFT_MODAL"												 	 :			"//form[contains(@id,'customShiftForm')]/div[contains(@class,'slot-custom-shift')]/div[1]/div[1]/div[contains(@class,'form-group')]/div/ng-form/input",
+	"CUSTOM_SHIFTS_ELEMENTS"										 :			"//div[contains(@class, 'modal-body')]//label[contains(text(),'DYN1')]/..//input",
+	"CREATE_PUBLISH_SHIFT_BTN"										 :			".//*[contains(@id,'shiftSlot')]/div/div/div[contains(@class,'modal-footer bg-white')]/div/a[DYN1]",
+	"TIME_OFF_LINK"															 :			"//*[contains(@id,'shiftSlot')]/div/div/div[contains(@class,'modal-header')]/h4[contains(@id,'shift-slot-modal-title')]/div/div[2]/a",
+	#"SCH_PAD_ACTIONS" 				    								 : 		    "(//table[@id='weekly-table']/tbody/tr[DYN1]/td[@id='scheduler-day-col'][DYN2]//div[contains(@id,'shift')])[DYN3]",
+	"POPUP_OPTION_TOGGLE_BTN"										 :			"//label[contains(@class, 'switch-light')]//span[DYN1]",
+	"SELECT_STANDARD_SHIFT"											 :			"(//div[contains(@class,'scheduler-employee-shift')]//*[contains(@class,'col-xs-6')])[DYN1]",
+	"CREATE_SHIFT_ONBOARDING"										 :			"//form[contains(@id,'empForm')]/div[2]//button[contains(.,'Create')]",
+
+
+
+	
+	#Team Center:
+	"TEAM_CENTER_SCREENS"												 :     		"//div[contains(@id,'main-content')]/div/div/div[contains(@class,'page-services')]/div[contains(.,'DYN1')]//a",
+	"TEAM_CENTER_REQUEST_TIME_OFF_ACTION"				 :			"((//div[@id='zipDashboard']//span[contains(.,'Time Off')]/../..)[1]//div/../following-sibling::div//div[contains(@class,'media-heading') and contains(.,'DYN1')])[DYN2]/../../../preceding-sibling::div//a[contains(@title,'DYN3')]",
+	"TEAM_CENTER_REQUEST_AVAILABILITY_ACTION"	 	     :			"((//div[@id='zipDashboard']//span[contains(.,'Availability Request')]/../..)[1]//div/../following-sibling::div//div[contains(@class,'media-heading') and contains(.,'DYN1')])[DYN2]/../../../preceding-sibling::div//a[contains(@title,'DYN3')]",
+	"REQUEST_SCREEN_CONFIRMATION"							     :			"//div[contains(@id,'zipDashboard')]//div[contains(@class,'box-title') and contains(.,'Needing Action')]",
+	"TEAM_CENTER_REQUEST__ACTION"				 				 :			"((//div[@id='zipDashboard']//span[contains(.,'Shift Swap Approval')]/../..)[1]//div/../following-sibling::div//div[contains(@class,'media-heading') and contains(.,'DYN1')])[DYN2]/../../../preceding-sibling::div//a[contains(@title,'DYN3')]",
+	"TEAM_CENTER_OFFER_SHIFT_OFFER_MODAL"				 :			"//*[contains(@class,'modal')]//button[contains(.,'Offer') and not(contains(@class,'pull-left'))][1]",
+	"OFFER_SHIFT_ICON"														 :			"//table/tbody/tr[DYN1]/td[DYN2]/div[contains(@class,'sch-table-content')]//a",
+	
+	
+	#Schedule Pad
+	"HEADER_NOTES_BTN"													 :			"//div[@id='schTableHeader']//th[DYN1+1]//a[@title='Notes']",
+	"HEADER_NOTES_TABS"													 :			"//div[contains(@class,'col-md-12')]//ul[contains(@class,'nav-tabs')]//a[contains(.,'DYN1')]",
+	"HEADER_NOTES_CLOSE"												 :			"//div[contains(@class,'new-notes-mdl')]//i[@id='closePopover']",
+	"WEATHER_CITY_DROPDOWN_BTN"								 :			"//div[@id='s2id_weather-city']",
+	"WEATHER_CITY_TXT_BOX"											     :			"(//div[@class='select2-search']//input)[2]",
+	"WEATHER_CITY_UPDATE_BTN"										 :			"//div[contains(@class,'new-notes-mdl')]//div[@id='header-wth-btn']",
+	"NOTES_TXT_BOX"														     :			"(//div[@class='col-md-12']/..//div[contains(@class,'addNote-input')]//input)[DYN1]",
+	"ADD_NOTES_BTN"														     :			"(//div[@class='col-md-12']/..//div[contains(@class,'addNote-input')])[DYN1]//button",
+	"OPTIONS_FLAGS"															 :			"(//div//form//input[@type='checkbox'])[DYN1]",
+	"SCH_PAD_OPEN_CELL_ANYWHERE"								 :			"(//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))		and not(descendant::div[(contains(@class,'unassigned-shift'))]) and not(descendant::div[contains(@class,'padding-top-7')]) and not(descendant::div[contains(@ng-model,'employeeShift')])	and not(descendant::div[contains(@class,'clearfix ')])])[DYN1]",
+	"SCH_PAD_OPEN_CELL"													 :			"(//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))		and not(descendant::div[(contains(@class,'unassigned-shift'))])		])[DYN1]",
+	"SCH_PAD_SHIFT_ACTIONS"											 :			"(//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))       and not(descendant::div[(contains(@class,'unassigned-shift'))])	])[DYN1]		//div[contains(@class,'scheduler-day-content')][DYN2]",
+	"SCH_PAD_SHIFT_ACTIONS_DV"			:  										"((//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))       and not(descendant::div[(contains(@class,'unassigned-shift'))])])[DYN1]  //div[contains(@class,'dayShiftWise')])[DYN2]",
+	"SCH_PAD_ADD_EMP_PUBLISH_BTN"								 :			"//div[contains(@class,'text-right')]//button[contains(., 'DYN1')]",
+	"FILTER_SCH_PAD_BTN"												     :			"//a[@id='btn-filter'][@type='button']",
+	"FILTER_POSITIONS"														 :			"//div[contains(@class,'min-height-120')]//label[contains(.,'DYN1')]",
+	"FILTER_DEPARTMENTS"													 :			"//div[contains(@class,'no-border')]//label[contains(.,'DYN1')]",	
+	"CLOSE_FILTER"																 :			"//ul//a[contains(@class,'hide-pop')]",
+	"HEADER_NOTES_BTN_MONTH"										 :			"//table/thead/tr/th[contains(@class,'with-Fullpin') and not(contains(@class,'cursor-default'))][DYN1]/div[contains(@class,'pinOn-hover')]",
+	"SCH_PAD_SHIFT_ACTIONS"            								 :		    "(//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))       and not(descendant::div[(contains(@class,'unassigned-shift'))]) ])[DYN1]  //div[contains(@class,'scheduler-day-content')][DYN2] ",
+	
+	
+	
+	#"SELECT_ELEMENTS_ON_FILTER"									 :			"((//ul[contains(@ng-class,'daypartPos')]//div[contains(@id,'sch-filter-popup')])//div[contains(@class,'col-md-4')])[DYN1]//label[contains(@title,'DYN2')]",
+	"FILTER_ACTION_BTNS"													 :			"//button[contains(text(),'DYN1')]",
+	"REPORTS_TOOLS_ARROW_BUTTON"								 :			"//button[@title='DYN1']//i[@class='fa fa-caret-down']",
+	"LOAD_TEMPLATE_CONFIRM_BTN"									 :			"//div[contains(@class,'modal-content')]//div[@class='modal-footer']//span",
+	"CALENDAR_COMPONANT_NAV_BTN"								 :			"//div[contains(@id,'schedule-user')]/div/div[contains(@class,'box-title')]/div/div[1]/div[not(contains(@class,'text-center'))]/div[1]//button[DYN1]",
+	"COPY_SHIFT_MODAL_BTNS"											 :			"//*[contains(@class,'modal')]//div[contains(@class,'text-right')]//span[contains(.,'DYN1')]",
+	"DAY_WEEK_MONTH_SWITCH_BTN"								 :			"//div[contains(@class,'btn-group')]//span[contains(.,'DYN1')]",
+	"EMPLOYEE_NAME_CLICK"												 :			"//table/tbody/tr[DYN1+1]//td[contains(@class,'employee-profile-activity')]",
+	"EMPLOYEE_NAME_SCHEDULE_PAD_OPTIONS"    			 : 			"//*[contains(@id,'availability-warning')]/div[contains(@class,'popover-content')]/div[contains(@class,'row')]/div[contains(.,'DYN1')]//i",
+	"EXPAND_SCH_PAD_FOOTER"											 :			"//div[@id='schTableFooter']//tr//th//a//i",
+	"ENTER_FCST_TRANS_VALUE"											 :			"(//div[@id='schTableFooter']//tbody//td[not(contains(@class,'weekly_state_bg')) and not(contains(@class,'closed-day-with-opecity'))])[DYN1]//input",
+	"PUBLISH_BUTTON_DISABLED"										 :    		"//div[contains(@class,'text-right')]//button[contains(., 'Publish') and @disabled='disabled']",	
+	"FILTERED_SHIFTS"															 :			"//div[contains(.,DYN1)]/parent::div[contains(@style,'background: rgb(239, 255, 255)')]",
+	"SEARCHING_EMP_NAME"												 :			"//div//h4//a[contains(@title,'DYN1')]",
+	"UNASSINGNED_SHIFT_BUTTON"         					  		 :   		"//table/tbody[contains(@id,'schTabBody')]//button[contains(.,'Unassigned Shift')]",
+	
+
+#Options on Shift Hover on Schedule pad
+	"ACTION_MENU_TOOLTIP"												 :			"//*[contains(@class,'tooltip')]/div[contains(@class,'tooltip-inner')]/div/div[contains(.,'DYN1')]",
+	"REPEAT_SHIFT_CHECKBOX"											 :			"//form[contains(@id,'customShiftForm')]/div[2]/div[3]/div[contains(@class,'col-sm-12')]/label[DYN1+2]/input",	
+
+	
+	
+	
+	#Update  Shift Modal Window
+	"UPDATE_SHIFT_TIMING"											 	 :			"//label[contains(text(), 'Shift Start')]/..//input",
+	"UPDATE_PUBLISH_BUTTON"											 :			"//*[@id='customShift']/div/div/div[4]/div[2]/span[contains(.,'DYN1')]//a",
+	"UPDATE_SHIFT_BUTTON"												 :			"//*[@id='customShift']//i[@title='Update']/..",
+	"DELETE_SHIFT_ON_MODAL"											 :			"//div[contains(@class,'modal-footer')]//div//i[@title='Delete']",
+	"CANCEL_DELETE_BUTTON"											 :			"//div[contains(@class,'modal-footer')]//div[contains(text(),'Cancel Delete')]",
+
+#Clear Schedule
+	"TOOLS_MENU_ITEM" 				    								     : 		    "//a[contains(@class,'choppOff') and @title='DYN1']",
+	"CONFIRM_POPUP_BUTTON"    										 :  		"//div/div[contains(@class,'panel-footer')]/button[contains(.,'DYN1')]",
+	
+	
+	
+#Generic
+	"APP_POP_UP_CLOSE_BTN"											 :			"//button[contains(@class,'close')]",
+	"SMALL_TXT_BOX_INPUT"											 	 :			"//div[contains(@class,'modal')]//input",
+	"PROFILE_MENU"															     : 			"//header[contains(@id,'head-nav')]//li[@id='user_details']//span",
+	"PROFILE_MENU_USER_ACTIOINS"									 :			"//div[@id='content_wrapper']//span//div[contains(@class,'row')]//a[contains(.,'DYN1')]",
+	"GO_TO_APP"																     :			"//div[contains(@class,'hub-app-launch')]//span//div[contains(.,'Zip Schedules') and not(contains(@class,'btn'))]//button[contains(.,'Go To App')]",
+	"OPEN_SEARCH_BAR"      												 :   		"//table//tr//th//label//i",
+	"CLOSE_SEARCH_BAR"      												 :   		"//span[contains(@class,'input-group-addon')]//i",
+
+	
+	
+	
+	#Generic Top Header
+	"OPTIONS_ON_HEADER"													 :			"//header//a//span[contains(text(),'DYN1')]",
+
+	
+	
+	
+	#Time Off Modal window
+	"TIMEO_OFF_TYPE"															 :			"//div//form[@id='timeOffEditForm']//div[@class='modal-body']//span[contains(.,'DYN1')]",
+	"TIME_OFF_ELEMENTS_BTN"											 :			"//div//form[@id='timeOffEditForm']//div[@class='modal-body']//label[contains(.,'DYN1')]/..//input/following-sibling::span",
+	"MODAL_TEXTAREA"														 :			"//div[contains(@class,'modal-content') or contains(@class,'modal-body') ]//label[contains(.,'DYN1')]/..//textarea",
+	"TIME_OFF_ACTION_BTN"									      		 :			"//*[contains(@class,'modal')]//a[contains(.,'DYN1')]",
+
+	
+	
+	#Find Replacement Modal Window
+	"CLICK_EMP_NAME_FIND_REPACEMENT"						 :			"(//div[contains(@class,'modal-dialog')]//div[contains(@class,'shiftOffer-modelOverflow1')]//ul)[DYN1]//li//div[contains(@class,'employee-Avail-Shift')] //div[contains(@class,'text-length') and contains(text(),'DYN2')]",
+
+	
+	
+	#Time Off calendar controls	
+	 "MODAL_SELECTED_DATE_PART"       							 :    		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]",
+	 "MODAL_CALENDAR_LEFT_BUTTON"      							 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//i[contains(@class,'fa fa-angle-left')]/..",
+	 "MODAL_CALENDAR_RIGHT_BUTTON"     						 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//i[contains(@class,'fa fa-angle-right')]/..",
+	 "MODAL_CALENDAR_TITLE_BUTTON"     						 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//button[contains(@id,'title')]",
+	 "MODAL_CALENDAR_DATE_COMPONENT_CELL"   			 :    		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and (descendant::span[not(contains(@class,'muted'))]) ]  |  (//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and not(contains(@class,'cln-text-gray'))]",
+	 "MODAL_CALENDAR_DATE_ABOVE_CELL"    					 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/preceding-sibling::tr[1]/td[floor(last() div 2)+1]",
+	 "MODAL_CALENDAR_DATE_BELOW_CELL"    					 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/following-sibling::tr[1]/td[floor(last() div 2)+1]",
+
+	#COPY_SHIFTS
+	#Date Component
+	"CS_SELECTED_DATE_PART"											 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]",
+	"CS_CALENDAR_LEFT_BUTTON"										 :			"(//div[@id='copySchedule'])[DYN1]//i[contains(@class,'fa fa-angle-left')]/..",
+	"CS_CALENDAR_RIGHT_BUTTON"									 :			"(//div[@id='copySchedule'])[DYN1]//i[contains(@class,'fa fa-angle-right')]/..",
+	"CS_CALENDAR_TITLE_BUTTON"									     :			"(//div[@id='copySchedule'])[DYN1]//button[contains(@id,'title')]",
+	 "CS_CALENDAR_DATE_COMPONENT_CELL"  					 :   		"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and (descendant::span[not(contains(@class,'muted'))]) ]  |  (//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2'   and not(contains(@class,'cln-text-gray'))]",
+	"CS_CALENDAR_DATE_ABOVE_CELL"								 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/preceding-sibling::tr)[last()]/td[floor(last() div 2)+1]",
+	"CS_CALENDAR_DATE_BELOW_CELL"								 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/following-sibling::tr)[1]/td[floor(last() div 2)+1]",
+
+	
+	
+	#CALENDAR NAVIGATOR ON PAGE
+	 "PAGE_SELECTED_DATE_PART"    									 :   		"(//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]",
+	 "PAGE_CALENDAR_LEFT_BUTTON"    								 :   		"(//div[@alta-datepicker])[DYN1]//i[contains(@class,'fa fa-angle-left')]/..",
+	 "PAGE_CALENDAR_RIGHT_BUTTON"   							 :   		"(//div[@alta-datepicker])[DYN1]//i[contains(@class,'fa fa-angle-right')]/..",
+	 "PAGE_CALENDAR_TITLE_BUTTON"   								 :   		"(//div[@alta-datepicker])[DYN1]//button[contains(@id,'title')]",
+	 "PAGE_CALENDAR_DATE_COMPONENT_CELL"  				 :   		"(//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and (descendant::span[not(contains(@class,'muted'))]) ]  |  (//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and not(contains(@class,'cln-text-gray'))]",
+	 "PAGE_CALENDAR_DATE_ABOVE_CELL"   						 :   		"(//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/preceding-sibling::tr)[last()]/td[(last() div 2)+1]",
+	 "PAGE_CALENDAR_DATE_BELOW_CELL"   						 :   		"(//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/following-sibling::tr)[1]/td[(last() div 2)+1]",
+	
+	#Employee 
+	"EMPLOYEE_BUTTONS"												  	 :			"//div[@id='emp-profile-srch']//div[contains(@class,'row')]/div[contains(@class,'text-right')]//button[contains(.,'DYN1')]",   #For add emp = Add Employee, for import = TOOLS
+    "ADD_EMP_MODAL_TABS"												 :			"//form/div[contains(@class,'left-section')]/ul//a[contains(.,'DYN1')]",
+	"ADD_EMP_MODAL_SITE_ADD_REMOVE"						 :			"//div[contains(@id,'EMPMAIN_Jobs')]//span//div[@class='row']//span[contains(.,'DYN1')]",	
+    "SELECT_CERTIFICATION_ADD_REMOVE"						 : 			"//div[contains(@id,'EMPMAIN_Cert')]/div/div[contains(@class,'row')]/div[2]/a[contains(.,'DYN1')]",
+	"SELECT_CERTIFICATION_CALENDAR"							 :			"//div[@id='cal0']/div/span",
+	"SELECT_CERTIFICATION_DATE"									     :  		"//ul[contains(@class,'dropdown-menu')]/li/div/table/tbody/tr[4]/td[4]//span",
+	"MODAL_DYN_INPUT"  				    								 : 			"(((//div[contains(@class,'modal')]//form//div[starts-with(@class,'row')])[DYN1])/div[contains(@class,'col')])[DYN2]//input",
+	"EMP_MODAL_DELETE_BUTTON"										 :			"//div[contains(@class,'modal-content')]/div[contains(@class,'modal-footer')]/span/a[contains(.,'Delete')]",
+	"EMP_MODAL_DELETE_PROCEED_YES_NO"				     :			"//div[contains(@class,'modal-content')]/div[contains(@class,'modal-footer')]/div/button[DYN1]",
+	"EMP_MODAL_SITE_HOME_STORE"									 :			"//form[contains(@name,'myForm')]//div[contains(@id,'EMPMAIN_Sites')]//ul[contains(@class,'list-group')]/li[contains(.,'DYN1')]//div[contains(@class,'btn-group')]//i[not(contains(@class,'green')) and not(contains(@class,'red'))]",     
+   	"EMP_TABLE_ICONS"														 :			"//table/tbody/tr[DYN1]/td[4]/div//button[contains(@title,'DYN2')]",
+	"EMP_MODAL_MINOR_FLAG"											 :			"//div[contains(@id, 'EMPMAIN_General_data')]//input[@id='Entity_EOEmpMain_Field_isMinorAf']",
+	"EMP_MODAL_ACA_FLAG"												 :			"//div[contains(@id, 'EMPMAIN_General_data')]//input[@id='Entity_EOEmpMain_Field_isMaxHrsPerWkAf']",
+	"EMP_MODAL_ACA_TEXT_FIELD"										 :			"//div[contains(@id, 'EMPMAIN_General_data')]//input[@id='rowForm10EmpMaxHrAf']",
+	"SELECT_SITE_ADD_ALL"												 :			".//*[@id='EMPMAIN_Sites']//span[contains(.,'Add All')]",
+	"EMP_MODAL_AVAILABILITY"										     :			"//div[contains(@id,'mainSloter')]//div[contains(@id,'slotSun')][1]//span",
+	"IMPORT_SCREEN_CONFIRMATION"								 :			"//div[contains(@class,'panel')]//span/div[contains(.,'Browse and select the CSV you want to upload')] ",
+	"IMPORT_SCREEN_SAMPLE_BUTTON"								 :			"//a[contains(.,'Sample')]",
+	
+#Standard Shifts:
+		"STD_SHIFT_ADD_BUTTON"										     :			"//div[contains(@id,'main-content')]//button[contains(.,'Add')]",
+		"STD_TIME_TEXTFIELD"												 :			"//div[contains(@class,'modal-content')]//div[contains(@class,'modal-body')]//div[1]/div[1]/div[contains(@class,'form-group')]/div[contains(@class,'controls')]//input",
+	    "STD_SHIFTS_TABLE_ICONS"										 :			"//div[contains(@id,'main-content')]//table[contains(@class,'table')]/tbody/tr[DYN1]/td[contains(@id,'rowActionIcon')]//button[contains(@title,'DYN2')]",
+	
+	#Zip Schedule Navigation
+
+	"GENERATE_PDF"        													     :      	"//button[contains(.,'Generate PDF') and not(@disabled)]",
+	"GENERATE_CSV"                    					  					 :          "//button[contains(.,'Generate CSV') and not(@disabled)]",
+	"FILTER_COMPONENT_MODAL"  										 :          "//ul[contains(@class,'dropdown-menu filter-list list-inline pull-center text-left onlyPosition')]   |   //ul[contains(@class,'dropdown-menu with-ReportFlag-true filter-list')]",
+  	"FILTER_MODAL_CLOSE"      											 :          "//a[contains(@ng-click,'closeFilter')]",
+  	"FILTER_COMPONENT"     												 :          "//a[@id='btn-filter']    |    //button[@id='btn-filter']",
+	"FILTER_DATE_COMPONENT"   										 :          "//i[@class='fa fa-calendar']",
+  	"FILTER_DATE_CALENDER"   											 :          "(//div[contains(@class,'daterangepicker')])[last()]   |  //*[contains(@class,'dropdown-datepicker')]",
+ 	"MODAL_LEFT_SECTION_ITEM" 										 :   		"//div[contains(@class,'left-section')]//li[contains(@class,'data_tab')]/a",
+ 	"MODAL_CLOSE_ICON"  												     :   		"//div[contains(@class,'modal')]//button[contains(@class,'close')]",
+ 	"ADD_BUTTON"    															 :   		"//button[contains(.,'Add')]",
+	"LOGIN_BUTTON"    														 :   		"//button[contains(@class,'btn btn-success') and contains(@type,'submit')]",
+ 	"ZIP_SCH_ICON"    													 	     :   		"(//div[contains(@class,'landing-apps')]//h3[contains(text(),'Zip Schedules')]/..//div//img | //div[contains(@class,'landing-apps')]//h3[contains(text(),'Zip Schedules')]/..//span//button[contains(text(),'Go To App')])[1]",
+ 	"SITE_TABLE_ZIP_SCH"  												     :   		"//div[contains(@class,'select-site-body')]//a[contains(.,'DYN1')]",
+ 	"ALL_HORIZONTAL_MENU_ITEM" 									 :   		"//ul[contains(@class,'nav nav-pills')]/li[not(contains(@class,'hide nav-dropdown'))]/a",
+ 	"HORIZONTAL_HOME_ICON"  											 :   		"//ul[contains(@class,'nav nav-pills')]//img[contains(@src,'home.svg')]",
+	"ALL_MENU_ITEM"             												 :          "//a[starts-with(@id,'Menu')]//span//span",
+	"ZS_LOGOUT"																     :			"//a[@ng-click='logout()']",
+	"FIRST_ROW_LAST_EMP_PRSENT"		   					         :			"(//div[@id='schTable']//tr[@class='maximum-height-td  ng-scope'][1]//div[@class='fill-shift-slot '])[7]//div[contains(@class,'scheduler-day-time')]",
+	"FIRST_ROW_LAST_EMP_BLANK"		   						 	 :			"(//div[@id='schTable']//tr[@class='maximum-height-td  ng-scope'][1]//div[@class='fill-shift-slot '])[7]",
+	"EDIT_BTN_FIRST_EMP_SCHEDULE"       							 :          "(//div[@id='schTable']//tr[@class='maximum-height-td  ng-scope'][1]//div[@class='fill-shift-slot '])[7]//div[contains(@class,'scheduler-day-time')]/../..//following-sibling::div//a[@tooltip-html-unsafe='Edit']",
+	"EDIT_SCH_DELETE_BTN"               								 :          "//div[@class='col-md-6 col-xs-6 col-sm-6 no-padding text-left']//i[@title='Delete' and contains(.,Delete)][1]",
+	"CREATE_ADD_SHIFT_BTN"											     :			"//div[@class='text-right ng-scope']//a//i[contains(.,Create) and @class='fa fa-plus'][1]",
+	"COPY_SHIFT_MODAL_BTNS"											 :			"//*[contains(@class,'modal')]//div[contains(@class,'text-right')]//span[contains(.,'DYN1')]",
+
+	#COPY_SHIFTS
+	#Date Component
+	"CS_SELECTED_DATE_PART"											 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]",
+	"CS_CALENDAR_LEFT_BUTTON"										 :			"(//div[@id='copySchedule'])[DYN1]//i[contains(@class,'fa fa-angle-left')]/..",
+	"CS_CALENDAR_RIGHT_BUTTON"									 :			"(//div[@id='copySchedule'])[DYN1]//i[contains(@class,'fa fa-angle-right')]/..",
+	"CS_CALENDAR_TITLE_BUTTON"									     :			"(//div[@id='copySchedule'])[DYN1]//button[contains(@id,'title')]",
+	"CS_CALENDAR_DATE_COMPONENT_CELL"				     :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2'	and (descendant::span[not(contains(@class,'muted'))])	]		|		(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2']",
+	"CS_CALENDAR_DATE_ABOVE_CELL"								 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/preceding-sibling::tr)[last()]/td[floor(last() div 2)+1]",
+	"CS_CALENDAR_DATE_BELOW_CELL"								 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/following-sibling::tr)[1]/td[floor(last() div 2)+1]",
+	
+	
+	#Schedule pad day view 
+	 "DYN_SHIFT_CELL"     													 :   		"(//div[@id='schTable']//table//tr[(1+DYN1)]//td//div[contains(@id,'shift')])[DYN2]",
+	 "DYN_SHIFT_ROW"    												         :  		"//div[@id='schTable']//table//tr[1+DYN1]//td[contains(@class,'scheduler-day-col')]",
+	 "SHIFT_ACTION_MENU_BUTTON"    								 :   		"//i[@tooltip-html-unsafe='Action']"
+	
+	
+	},
+	byIDDic : {
+	"HW_REGISTER_NOW"													 :			"registerNow"
+		
+	},
+	byClassNameDic : {
+	},
+	byLinkTextDic : {
+	},
+	byPartialTextDic :{
+	},
+	byTagNameDic : {
+	},
+	byAccessibilityIDDic :{
+	},
+	byCSSSelector :{
+	}
+}
+
+
+
+
+
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	Text After Change-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+{
+	byNameDic : {
+
+	},
+	byXpathDic : {
+	
+	"LOGIN_BUTTON"															 :			"//button[contains(@class,'btn btn-success') and contains(@type,'submit')]",
+	"APP_MARKET_SIGNUP"													 :			"//li[starts-with(@id,'menu-item')]/a[contains(@href,'siginuponly') and contains(.,'SIGN UP')]",
+	"APP_MARKET_ZS_SIGNUP"											 	 :			"//a[contains(@href,'#zipsch')]/parent::div[contains(@class,'appIcon')]",
+	"LOADING_LAYER"															 :			"//*[contains(@class,'app-market-loading')]			|		//*[@id='loader']",
+	"ZS_REGISTRATION_NAME_FIELD"									 :			"//input[@type='text' and @placeholder='Full Name' ]",
+	"ZS_REGISTRATION_EMAIL_FIELD"									 :			"//input[@type='email' and @placeholder='Email ID' ]",
+	"ZS_REGISTRATION_SIGN_UP_BUTTON"							 :			"//div[@class='signup-btn']//button",
+	"HUBWORKS_DROPDOWN"												 :			"(//*[@class='select2-arrow'])[DYN1]",
+	"HUBWORKS_MODAL_DROPDOWN"									 :			"(//div[contains(@class,'modal')]//*[@class='select2-arrow'])[DYN1]",
+	"DROPDOWN_AFTER_OPEN"											 :			"//div[contains(@class,'select2-result-label') and contains(.,'DYN1')]",
+	"ONBOARDING_NEXT_BUTTON"										 :			"//button[contains(@class,'btn') and contains(.,'DYN1')]",
+	"FORM_INPUT"																 	 :			"(//input[@type='text'   and contains(@class,'form-control')])[DYN1]",
+	"MODAL_BUTTON"															 :			"//*[contains(@class,'modal')]//button[contains(.,'DYN1')]",
+	"MODAL_DYN_INPUT"														 :			"(((//div[contains(@class,'modal')]//form//div[starts-with(@class,'row')])[DYN1])/div[contains(@class,'col')])[DYN2]//input",
+	"GUIDED_HELP_STEP_ACTION"										 :			"//*[contains(@class,'guided-help-step-action')]",
+	"INPUT_DROPDOWN_OPTION"										 :			"//div[contains(@class,'select2-result-label') and contains(.,'DYN1')]",
+	"NOTIF_BAR"																	 :			"//div[@id='ui_notifIt']",
+	"VIEW_MORE"																 	 :			"//h3[contains(text(), 'Zip Schedules')]/../following-sibling::td/a",
+	"GET_STARTED"															 	 :			"//a[text()='Get Started']",
+	"TEXTBOX_ALERT_TOOLTIP"											 :			"//div[contains(@class,'alert-danger') and contains(@style, 'display: block')]//span",
+	"EMAILID_EXISTS_ALERT"												 :			"//div[@class='panel-body']",
+	"ALERT_PROCEED_BUTTON"											 :			"//button[contains(., 'Proceed')]",
+	"OWNER_EMPLOYEE_TAB"												 :			"//span[text()='Employee']",
+	"ZS_REGISTRATION_EMPLOYEE_EMAIL"							 :			"//input[@type='text' and @placeholder='Email ID' ]",
+	"ZS_REGISTRATION_MANAGER_EMAIL"							 :			"//input[@type='text' and contains(@placeholder, 'Manager')]",
+	"EMPLOYEE_SIGNUP_ALERT"											 :			"//div[contains(@class, 'modal-body')]//label",
+	"ALERT_OK_BUTTON"														 :			"//button[text()='Ok']",
+	"HB_USERNAME"                       										 :          "(//input[@type='email' and @placeholder='Email ID'])[1]",
+	"HB_PASSWORD"                      										 :          "(//input[@type='password' and @placeholder='Password'])[1]",
+	"SITE_TABLE_ZIP_SCH"                									 :          "//div[contains(@class,'select-site-body')]//a[contains(.,'DYN1')]",
+	"ZS_SIDE_MENU_ITEM"			      									 :			"//a[starts-with(@id,'Menu')]//span//span[text()='DYN1']",
+	#"TABLE_CELL"																 :			"//table[@id='weekly-table']/tbody/tr[DYN1]/td[@id='scheduler-day-col'][DYN2]",
+	"CREATE_SHIFT_MODAL"												 	 :			"//form[contains(@id,'customShiftForm')]/div[contains(@class,'slot-custom-shift')]/div[1]/div[1]/div[contains(@class,'form-group')]/div/ng-form/input",
+	"CUSTOM_SHIFTS_ELEMENTS"										 :			"//div[contains(@class, 'modal-body')]//label[contains(text(),'DYN1')]/..//input",
+	"CREATE_PUBLISH_SHIFT_BTN"										 :			".//*[contains(@id,'shiftSlot')]/div/div/div[contains(@class,'modal-footer bg-white')]/div/a[DYN1]",
+	"TIME_OFF_LINK"															 :			"//*[contains(@id,'shiftSlot')]/div/div/div[contains(@class,'modal-header')]/h4[contains(@id,'shift-slot-modal-title')]/div/div[2]/a",
+	#"SCH_PAD_ACTIONS" 				    								 : 		    "(//table[@id='weekly-table']/tbody/tr[DYN1]/td[@id='scheduler-day-col'][DYN2]//div[contains(@id,'shift')])[DYN3]",
+	"POPUP_OPTION_TOGGLE_BTN"										 :			"//label[contains(@class, 'switch-light')]//span[DYN1]",
+	"SELECT_STANDARD_SHIFT"											 :			"(//div[contains(@class,'scheduler-employee-shift')]//*[contains(@class,'col-xs-6')])[DYN1]",
+	"CREATE_SHIFT_ONBOARDING"										 :			"//form[contains(@id,'empForm')]/div[2]//button[contains(.,'Create')]",
+
+
+
+	
+	#Team Center:
+	"TEAM_CENTER_SCREENS"												 :     		"//div[contains(@id,'main-content')]/div/div/div[contains(@class,'page-services')]/div[contains(.,'DYN1')]//a",
+	"TEAM_CENTER_REQUEST_TIME_OFF_ACTION"				 :			"((//div[@id='zipDashboard']//span[contains(.,'Time Off')]/../..)[1]//div/../following-sibling::div//div[contains(@class,'media-heading') and contains(.,'DYN1')])[DYN2]/../../../preceding-sibling::div//a[contains(@title,'DYN3')]",
+	"TEAM_CENTER_REQUEST_AVAILABILITY_ACTION"	 	     :			"((//div[@id='zipDashboard']//span[contains(.,'Availability Request')]/../..)[1]//div/../following-sibling::div//div[contains(@class,'media-heading') and contains(.,'DYN1')])[DYN2]/../../../preceding-sibling::div//a[contains(@title,'DYN3')]",
+	"REQUEST_SCREEN_CONFIRMATION"							     :			"//div[contains(@id,'zipDashboard')]//div[contains(@class,'box-title') and contains(.,'Needing Action')]",
+	"TEAM_CENTER_REQUEST__ACTION"				 				 :			"((//div[@id='zipDashboard']//span[contains(.,'Shift Swap Approval')]/../..)[1]//div/../following-sibling::div//div[contains(@class,'media-heading') and contains(.,'DYN1')])[DYN2]/../../../preceding-sibling::div//a[contains(@title,'DYN3')]",
+	"TEAM_CENTER_OFFER_SHIFT_OFFER_MODAL"				 :			"//*[contains(@class,'modal')]//button[contains(.,'Offer') and not(contains(@class,'pull-left'))][1]",
+	"OFFER_SHIFT_ICON"														 :			"//table/tbody/tr[DYN1]/td[DYN2]/div[contains(@class,'sch-table-content')]//a",
+	
+	
+	#Schedule Pad
+	"HEADER_NOTES_BTN"													 :			"//div[@id='schTableHeader']//th[DYN1+1]//a[@title='Notes']",
+	"HEADER_NOTES_TABS"													 :			"//div[contains(@class,'col-md-12')]//ul[contains(@class,'nav-tabs')]//a[contains(.,'DYN1')]",
+	"HEADER_NOTES_CLOSE"												 :			"//div[contains(@class,'new-notes-mdl')]//i[@id='closePopover']",
+	"WEATHER_CITY_DROPDOWN_BTN"								 :			"//div[@id='s2id_weather-city']",
+	"WEATHER_CITY_TXT_BOX"											     :			"(//div[@class='select2-search']//input)[2]",
+	"WEATHER_CITY_UPDATE_BTN"										 :			"//div[contains(@class,'new-notes-mdl')]//div[@id='header-wth-btn']",
+	"NOTES_TXT_BOX"														     :			"(//div[@class='col-md-12']/..//div[contains(@class,'addNote-input')]//input)[DYN1]",
+	"ADD_NOTES_BTN"														     :			"(//div[@class='col-md-12']/..//div[contains(@class,'addNote-input')])[DYN1]//button",
+	"OPTIONS_FLAGS"															 :			"(//div//form//input[@type='checkbox'])[DYN1]",
+	"SCH_PAD_OPEN_CELL_ANYWHERE"								 :			"(//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))		and not(descendant::div[(contains(@class,'unassigned-shift'))]) and not(descendant::div[contains(@class,'padding-top-7')]) and not(descendant::div[contains(@ng-model,'employeeShift')])	and not(descendant::div[contains(@class,'clearfix ')])])[DYN1]",
+	"SCH_PAD_OPEN_CELL"													 :			"(//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))		and not(descendant::div[(contains(@class,'unassigned-shift'))])		])[DYN1]",
+	"SCH_PAD_SHIFT_ACTIONS"											 :			"(//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))       and not(descendant::div[(contains(@class,'unassigned-shift'))])	])[DYN1]		//div[contains(@class,'scheduler-day-content')][DYN2]",
+	"SCH_PAD_SHIFT_ACTIONS_DV"			:  										"((//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))       and not(descendant::div[(contains(@class,'unassigned-shift'))])])[DYN1]  //div[contains(@class,'dayShiftWise')])[DYN2]",
+	"SCH_PAD_ADD_EMP_PUBLISH_BTN"								 :			"//div[contains(@class,'text-right')]//button[contains(., 'DYN1')]",
+	"FILTER_SCH_PAD_BTN"												     :			"//a[@id='btn-filter'][@type='button']",
+	"FILTER_POSITIONS"														 :			"//div[contains(@class,'min-height-120')]//label[contains(.,'DYN1')]",
+	"FILTER_DEPARTMENTS"													 :			"//div[contains(@class,'no-border')]//label[contains(.,'DYN1')]",	
+	"CLOSE_FILTER"																 :			"//ul//a[contains(@class,'hide-pop')]",
+	"HEADER_NOTES_BTN_MONTH"										 :			"//table/thead/tr/th[contains(@class,'with-Fullpin') and not(contains(@class,'cursor-default'))][DYN1]/div[contains(@class,'pinOn-hover')]",
+	"SCH_PAD_SHIFT_ACTIONS"            								 :		    "(//td[not(contains(@class,'bg-color-disable')) and contains(@class,'scheduler-day-col') and not(contains(@class,'closed-day')) and not(contains(@class,'ui-state-disabled'))       and not(descendant::div[(contains(@class,'unassigned-shift'))]) ])[DYN1]  //div[contains(@class,'scheduler-day-content')][DYN2] ",
+	
+	
+	
+	#"SELECT_ELEMENTS_ON_FILTER"									 :			"((//ul[contains(@ng-class,'daypartPos')]//div[contains(@id,'sch-filter-popup')])//div[contains(@class,'col-md-4')])[DYN1]//label[contains(@title,'DYN2')]",
+	"FILTER_ACTION_BTNS"													 :			"//button[contains(text(),'DYN1')]",
+	"REPORTS_TOOLS_ARROW_BUTTON"								 :			"//button[@title='DYN1']//i[@class='fa fa-caret-down']",
+	"LOAD_TEMPLATE_CONFIRM_BTN"									 :			"//div[contains(@class,'modal-content')]//div[@class='modal-footer']//span",
+	"CALENDAR_COMPONANT_NAV_BTN"								 :			"//div[contains(@id,'schedule-user')]/div/div[contains(@class,'box-title')]/div/div[1]/div[not(contains(@class,'text-center'))]/div[1]//button[DYN1]",
+	"COPY_SHIFT_MODAL_BTNS"											 :			"//*[contains(@class,'modal')]//div[contains(@class,'text-right')]//span[contains(.,'DYN1')]",
+	"DAY_WEEK_MONTH_SWITCH_BTN"								 :			"//div[contains(@class,'btn-group')]//span[contains(.,'DYN1')]",
+	"EMPLOYEE_NAME_CLICK"												 :			"//table/tbody/tr[DYN1+1]//td[contains(@class,'employee-profile-activity')]",
+	"EMPLOYEE_NAME_SCHEDULE_PAD_OPTIONS"    			 : 			"//*[contains(@id,'availability-warning')]/div[contains(@class,'popover-content')]/div[contains(@class,'row')]/div[contains(.,'DYN1')]//i",
+	"EXPAND_SCH_PAD_FOOTER"											 :			"//div[@id='schTableFooter']//tr//th//a//i",
+	"ENTER_FCST_TRANS_VALUE"											 :			"(//div[@id='schTableFooter']//tbody//td[not(contains(@class,'weekly_state_bg')) and not(contains(@class,'closed-day-with-opecity'))])[DYN1]//input",
+	"PUBLISH_BUTTON_DISABLED"										 :    		"//div[contains(@class,'text-right')]//button[contains(., 'Publish') and @disabled='disabled']",	
+	"FILTERED_SHIFTS"															 :			"//div[contains(.,DYN1)]/parent::div[contains(@style,'background: rgb(239, 255, 255)')]",
+	"SEARCHING_EMP_NAME"												 :			"//div//h4//a[contains(@title,'DYN1')]",
+	"UNASSINGNED_SHIFT_BUTTON"         					  		 :   		"//table/tbody[contains(@id,'schTabBody')]//button[contains(.,'Unassigned Shift')]",
+	
+
+#Options on Shift Hover on Schedule pad
+	"ACTION_MENU_TOOLTIP"												 :			"//*[contains(@class,'tooltip')]/div[contains(@class,'tooltip-inner')]/div/div[contains(.,'DYN1')]",
+	"REPEAT_SHIFT_CHECKBOX"											 :			"//form[contains(@id,'customShiftForm')]/div[2]/div[3]/div[contains(@class,'col-sm-12')]/label[DYN1+2]/input",	
+
+	
+	
+	
+	#Update  Shift Modal Window
+	"UPDATE_SHIFT_TIMING"											 	 :			"//label[contains(text(), 'Shift Start')]/..//input",
+	"UPDATE_PUBLISH_BUTTON"											 :			"//*[@id='customShift']/div/div/div[4]/div[2]/span[contains(.,'DYN1')]//a",
+	"UPDATE_SHIFT_BUTTON"												 :			"//*[@id='customShift']//i[@title='Update']/..",
+	"DELETE_SHIFT_ON_MODAL"											 :			"//div[contains(@class,'modal-footer')]//div//i[@title='Delete']",
+	"CANCEL_DELETE_BUTTON"											 :			"//div[contains(@class,'modal-footer')]//div[contains(text(),'Cancel Delete')]",
+
+#Clear Schedule
+	"TOOLS_MENU_ITEM" 				    								     : 		    "//a[contains(@class,'choppOff') and @title='DYN1']",
+	"CONFIRM_POPUP_BUTTON"    										 :  		"//div/div[contains(@class,'panel-footer')]/button[contains(.,'DYN1')]",
+	
+	
+	
+#Generic
+	"APP_POP_UP_CLOSE_BTN"											 :			"//button[contains(@class,'close')]",
+	"SMALL_TXT_BOX_INPUT"											 	 :			"//div[contains(@class,'modal')]//input",
+	"PROFILE_MENU"															     : 			"//header[contains(@id,'head-nav')]//li[@id='user_details']//span",
+	"PROFILE_MENU_USER_ACTIOINS"									 :			"//div[@id='content_wrapper']//span//div[contains(@class,'row')]//a[contains(.,'DYN1')]",
+	"GO_TO_APP"																     :			"//div[contains(@class,'hub-app-launch')]//span//div[contains(.,'Zip Schedules') and not(contains(@class,'btn'))]//button[contains(.,'Go To App')]",
+	"OPEN_SEARCH_BAR"      												 :   		"//table//tr//th//label//i",
+	"CLOSE_SEARCH_BAR"      												 :   		"//span[contains(@class,'input-group-addon')]//i",
+
+	
+	
+	
+	#Generic Top Header
+	"OPTIONS_ON_HEADER"													 :			"//header//a//span[contains(text(),'DYN1')]",
+
+	
+	
+	
+	#Time Off Modal window
+	"TIMEO_OFF_TYPE"															 :			"//div//form[@id='timeOffEditForm']//div[@class='modal-body']//span[contains(.,'DYN1')]",
+	"TIME_OFF_ELEMENTS_BTN"											 :			"//div//form[@id='timeOffEditForm']//div[@class='modal-body']//label[contains(.,'DYN1')]/..//input/following-sibling::span",
+	"MODAL_TEXTAREA"														 :			"//div[contains(@class,'modal-content') or contains(@class,'modal-body') ]//label[contains(.,'DYN1')]/..//textarea",
+	"TIME_OFF_ACTION_BTN"									      		 :			"//*[contains(@class,'modal')]//a[contains(.,'DYN1')]",
+
+	
+	
+	#Find Replacement Modal Window
+	"CLICK_EMP_NAME_FIND_REPACEMENT"						 :			"(//div[contains(@class,'modal-dialog')]//div[contains(@class,'shiftOffer-modelOverflow1')]//ul)[DYN1]//li//div[contains(@class,'employee-Avail-Shift')] //div[contains(@class,'text-length') and contains(text(),'DYN2')]",
+
+	
+	
+	#Time Off calendar controls	
+	 "MODAL_SELECTED_DATE_PART"       							 :    		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]",
+	 "MODAL_CALENDAR_LEFT_BUTTON"      							 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//i[contains(@class,'fa fa-angle-left')]/..",
+	 "MODAL_CALENDAR_RIGHT_BUTTON"     						 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//i[contains(@class,'fa fa-angle-right')]/..",
+	 "MODAL_CALENDAR_TITLE_BUTTON"     						 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//button[contains(@id,'title')]",
+	 "MODAL_CALENDAR_DATE_COMPONENT_CELL"   			 :    		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and (descendant::span[not(contains(@class,'muted'))]) ]  |  (//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and not(contains(@class,'cln-text-gray'))]",
+	 "MODAL_CALENDAR_DATE_ABOVE_CELL"    					 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/preceding-sibling::tr[1]/td[floor(last() div 2)+1]",
+	 "MODAL_CALENDAR_DATE_BELOW_CELL"    					 :     		"(//div//form[@id='timeOffEditForm']//table)[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/following-sibling::tr[1]/td[floor(last() div 2)+1]",
+
+	#COPY_SHIFTS
+	#Date Component
+	"CS_SELECTED_DATE_PART"											 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]",
+	"CS_CALENDAR_LEFT_BUTTON"										 :			"(//div[@id='copySchedule'])[DYN1]//i[contains(@class,'fa fa-angle-left')]/..",
+	"CS_CALENDAR_RIGHT_BUTTON"									 :			"(//div[@id='copySchedule'])[DYN1]//i[contains(@class,'fa fa-angle-right')]/..",
+	"CS_CALENDAR_TITLE_BUTTON"									     :			"(//div[@id='copySchedule'])[DYN1]//button[contains(@id,'title')]",
+	 "CS_CALENDAR_DATE_COMPONENT_CELL"  					 :   		"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and (descendant::span[not(contains(@class,'muted'))]) ]  |  (//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2'   and not(contains(@class,'cln-text-gray'))]",
+	"CS_CALENDAR_DATE_ABOVE_CELL"								 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/preceding-sibling::tr)[last()]/td[floor(last() div 2)+1]",
+	"CS_CALENDAR_DATE_BELOW_CELL"								 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/following-sibling::tr)[1]/td[floor(last() div 2)+1]",
+
+	
+	
+	#CALENDAR NAVIGATOR ON PAGE
+	 "PAGE_SELECTED_DATE_PART"    									 :   		"(//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]",
+	 "PAGE_CALENDAR_LEFT_BUTTON"    								 :   		"(//div[@alta-datepicker])[DYN1]//i[contains(@class,'fa fa-angle-left')]/..",
+	 "PAGE_CALENDAR_RIGHT_BUTTON"   							 :   		"(//div[@alta-datepicker])[DYN1]//i[contains(@class,'fa fa-angle-right')]/..",
+	 "PAGE_CALENDAR_TITLE_BUTTON"   								 :   		"(//div[@alta-datepicker])[DYN1]//button[contains(@id,'title')]",
+	 "PAGE_CALENDAR_DATE_COMPONENT_CELL"  				 :   		"(//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and (descendant::span[not(contains(@class,'muted'))]) ]  |  (//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2' and not(contains(@class,'cln-text-gray'))]",
+	 "PAGE_CALENDAR_DATE_ABOVE_CELL"   						 :   		"(//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/preceding-sibling::tr)[last()]/td[(last() div 2)+1]",
+	 "PAGE_CALENDAR_DATE_BELOW_CELL"   						 :   		"(//div[@alta-datepicker])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/following-sibling::tr)[1]/td[(last() div 2)+1]",
+	
+	#Employee 
+	"EMPLOYEE_BUTTONS"												  	 :			"//div[@id='emp-profile-srch']//div[contains(@class,'row')]/div[contains(@class,'text-right')]//button[contains(.,'DYN1')]",   #For add emp = Add Employee, for import = TOOLS
+    "ADD_EMP_MODAL_TABS"												 :			"//form/div[contains(@class,'left-section')]/ul//a[contains(.,'DYN1')]",
+	"ADD_EMP_MODAL_SITE_ADD_REMOVE"						 :			"//div[contains(@id,'EMPMAIN_Jobs')]//span//div[@class='row']//span[contains(.,'DYN1')]",	
+    "SELECT_CERTIFICATION_ADD_REMOVE"						 : 			"//div[contains(@id,'EMPMAIN_Cert')]/div/div[contains(@class,'row')]/div[2]/a[contains(.,'DYN1')]",
+	"SELECT_CERTIFICATION_CALENDAR"							 :			"//div[@id='cal0']/div/span",
+	"SELECT_CERTIFICATION_DATE"									     :  		"//ul[contains(@class,'dropdown-menu')]/li/div/table/tbody/tr[4]/td[4]//span",
+	"MODAL_DYN_INPUT"  				    								 : 			"(((//div[contains(@class,'modal')]//form//div[starts-with(@class,'row')])[DYN1])/div[contains(@class,'col')])[DYN2]//input",
+	"EMP_MODAL_DELETE_BUTTON"										 :			"//div[contains(@class,'modal-content')]/div[contains(@class,'modal-footer')]/span/a[contains(.,'Delete')]",
+	"EMP_MODAL_DELETE_PROCEED_YES_NO"				     :			"//div[contains(@class,'modal-content')]/div[contains(@class,'modal-footer')]/div/button[DYN1]",
+	"EMP_MODAL_SITE_HOME_STORE"									 :			"//form[contains(@name,'myForm')]//div[contains(@id,'EMPMAIN_Sites')]//ul[contains(@class,'list-group')]/li[contains(.,'DYN1')]//div[contains(@class,'btn-group')]//i[not(contains(@class,'green')) and not(contains(@class,'red'))]",     
+   	"EMP_TABLE_ICONS"														 :			"//table/tbody/tr[DYN1]/td[4]/div//button[contains(@title,'DYN2')]",
+	"EMP_MODAL_MINOR_FLAG"											 :			"//div[contains(@id, 'EMPMAIN_General_data')]//input[@id='Entity_EOEmpMain_Field_isMinorAf']",
+	"EMP_MODAL_ACA_FLAG"												 :			"//div[contains(@id, 'EMPMAIN_General_data')]//input[@id='Entity_EOEmpMain_Field_isMaxHrsPerWkAf']",
+	"EMP_MODAL_ACA_TEXT_FIELD"										 :			"//div[contains(@id, 'EMPMAIN_General_data')]//input[@id='rowForm10EmpMaxHrAf']",
+	"SELECT_SITE_ADD_ALL"												 :			".//*[@id='EMPMAIN_Sites']//span[contains(.,'Add All')]",
+	"EMP_MODAL_AVAILABILITY"										     :			"//div[contains(@id,'mainSloter')]//div[contains(@id,'slotSun')][1]//span",
+	"IMPORT_SCREEN_CONFIRMATION"								 :			"//div[contains(@class,'panel')]//span/div[contains(.,'Browse and select the CSV you want to upload')] ",
+	"IMPORT_SCREEN_SAMPLE_BUTTON"								 :			"//a[contains(.,'Sample')]",
+	
+#Standard Shifts:
+		"STD_SHIFT_ADD_BUTTON"										     :			"//div[contains(@id,'main-content')]//button[contains(.,'Add')]",
+		"STD_TIME_TEXTFIELD"												 :			"//div[contains(@class,'modal-content')]//div[contains(@class,'modal-body')]//div[1]/div[1]/div[contains(@class,'form-group')]/div[contains(@class,'controls')]//input",
+	    "STD_SHIFTS_TABLE_ICONS"										 :			"//div[contains(@id,'main-content')]//table[contains(@class,'table')]/tbody/tr[DYN1]/td[contains(@id,'rowActionIcon')]//button[contains(@title,'DYN2')]",
+	
+	#Zip Schedule Navigation
+
+	"GENERATE_PDF"        													     :      	"//button[contains(.,'Generate PDF') and not(@disabled)]",
+	"GENERATE_CSV"                    					  					 :          "//button[contains(.,'Generate CSV') and not(@disabled)]",
+	"FILTER_COMPONENT_MODAL"  										 :          "//ul[contains(@class,'dropdown-menu filter-list list-inline pull-center text-left onlyPosition')]   |   //ul[contains(@class,'dropdown-menu with-ReportFlag-true filter-list')]",
+  	"FILTER_MODAL_CLOSE"      											 :          "//a[contains(@ng-click,'closeFilter')]",
+  	"FILTER_COMPONENT"     												 :          "//a[@id='btn-filter']    |    //button[@id='btn-filter']",
+	"FILTER_DATE_COMPONENT"   										 :          "//i[@class='fa fa-calendar']",
+  	"FILTER_DATE_CALENDER"   											 :          "(//div[contains(@class,'daterangepicker')])[last()]   |  //*[contains(@class,'dropdown-datepicker')]",
+ 	"MODAL_LEFT_SECTION_ITEM" 										 :   		"//div[contains(@class,'left-section')]//li[contains(@class,'data_tab')]/a",
+ 	"MODAL_CLOSE_ICON"  												     :   		"//div[contains(@class,'modal')]//button[contains(@class,'close')]",
+ 	"ADD_BUTTON"    															 :   		"//button[contains(.,'Add')]",
+	"LOGIN_BUTTON"    														 :   		"//button[contains(@class,'btn btn-success') and contains(@type,'submit')]",
+ 	"ZIP_SCH_ICON"    													 	     :   		"(//div[contains(@class,'landing-apps')]//h3[contains(text(),'Zip Schedules')]/..//div//img | //div[contains(@class,'landing-apps')]//h3[contains(text(),'Zip Schedules')]/..//span//button[contains(text(),'Go To App')])[1]",
+ 	"SITE_TABLE_ZIP_SCH"  												     :   		"//div[contains(@class,'select-site-body')]//a[contains(.,'DYN1')]",
+ 	"ALL_HORIZONTAL_MENU_ITEM" 									 :   		"//ul[contains(@class,'nav nav-pills')]/li[not(contains(@class,'hide nav-dropdown'))]/a",
+ 	"HORIZONTAL_HOME_ICON"  											 :   		"//ul[contains(@class,'nav nav-pills')]//img[contains(@src,'home.svg')]",
+	"ALL_MENU_ITEM"             												 :          "//a[starts-with(@id,'Menu')]//span//span",
+	"ZS_LOGOUT"																     :			"//a[@ng-click='logout()']",
+	"FIRST_ROW_LAST_EMP_PRSENT"		   					         :			"(//div[@id='schTable']//tr[@class='maximum-height-td  ng-scope'][1]//div[@class='fill-shift-slot '])[7]//div[contains(@class,'scheduler-day-time')]",
+	"FIRST_ROW_LAST_EMP_BLANK"		   						 	 :			"(//div[@id='schTable']//tr[@class='maximum-height-td  ng-scope'][1]//div[@class='fill-shift-slot '])[7]",
+	"EDIT_BTN_FIRST_EMP_SCHEDULE"       							 :          "(//div[@id='schTable']//tr[@class='maximum-height-td  ng-scope'][1]//div[@class='fill-shift-slot '])[7]//div[contains(@class,'scheduler-day-time')]/../..//following-sibling::div//a[@tooltip-html-unsafe='Edit']",
+	"EDIT_SCH_DELETE_BTN"               								 :          "//div[@class='col-md-6 col-xs-6 col-sm-6 no-padding text-left']//i[@title='Delete' and contains(.,Delete)][1]",
+	"CREATE_ADD_SHIFT_BTN"											     :			"//div[@class='text-right ng-scope']//a//i[contains(.,Create) and @class='fa fa-plus'][1]",
+	"COPY_SHIFT_MODAL_BTNS"											 :			"//*[contains(@class,'modal')]//div[contains(@class,'text-right')]//span[contains(.,'DYN1')]",
+
+	#COPY_SHIFTS
+	#Date Component
+	"CS_SELECTED_DATE_PART"											 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]",
+	"CS_CALENDAR_LEFT_BUTTON"										 :			"(//div[@id='copySchedule'])[DYN1]//i[contains(@class,'fa fa-angle-left')]/..",
+	"CS_CALENDAR_RIGHT_BUTTON"									 :			"(//div[@id='copySchedule'])[DYN1]//i[contains(@class,'fa fa-angle-right')]/..",
+	"CS_CALENDAR_TITLE_BUTTON"									     :			"(//div[@id='copySchedule'])[DYN1]//button[contains(@id,'title')]",
+	"CS_CALENDAR_DATE_COMPONENT_CELL"				     :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2'	and (descendant::span[not(contains(@class,'muted'))])	]		|		(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[.='DYN2']",
+	"CS_CALENDAR_DATE_ABOVE_CELL"								 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/preceding-sibling::tr)[last()]/td[floor(last() div 2)+1]",
+	"CS_CALENDAR_DATE_BELOW_CELL"								 :			"(//div[@id='copySchedule'])[DYN1]//td[contains(@id,'alta-datepicker')]/button[contains(@class,'btn-info')]//ancestor::tr/following-sibling::tr)[1]/td[floor(last() div 2)+1]",
+	
+	
+	#Schedule pad day view 
+	 "DYN_SHIFT_CELL"     													 :   		"(//div[@id='schTable']//table//tr[(1+DYN1)]//td//div[contains(@id,'shift')])[DYN2]",
+	 "DYN_SHIFT_ROW"    												         :  		"//div[@id='schTable']//table//tr[1+DYN1]//td[contains(@class,'scheduler-day-col')]",
+	 "SHIFT_ACTION_MENU_BUTTON"    								 :   		"//i[@tooltip-html-unsafe='Action']"
+	
+	
+	},
+	byIDDic : {
+	"HW_REGISTER_NOW"													 :			"registerNow"
+		
+	},
+	byClassNameDic : {
+	},
+	byLinkTextDic : {
+	},
+	byPartialTextDic :{
+	},
+	byTagNameDic : {
+	},
+	byAccessibilityIDDic :{
+	},
+	byCSSSelector :{
+	}
+}

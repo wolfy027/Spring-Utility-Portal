@@ -1,0 +1,69 @@
+{
+	ANDROID_DRIVER : [
+		{
+			isActive : true,
+			headerIID : "POPUP_MSG_HEADER",
+			okButtonIID : "POPUP_MSG_OK_BTN",
+			cancelButtonIID : "POPUP_MSG_CANCEL_BTN",
+			key : "OK_CANCEL_POPUP_MSGUI"
+		},
+		# when response does not come
+		{
+			isActive : true,
+			headerIID : "POPUP_MSG_HEADER",
+			okButtonIID : "POPUP_MSG_OK_BTN",
+			isErrorMsgPop : true,
+			key : "RESPONSE_NOT_APPEARUI",
+			msgStrIID : "RESPONSE_NOT_APPEAR"
+		},
+		{
+			isActive : true,
+			headerIID : "POPUP_MSG_HEADER",
+			okButtonIID : "POPUP_MSG_OK_BTN",
+			"isErrorMsgPop" : true,
+			key : "INTERNET_NOT_AVAILUI",
+			msgStrIID : "INTERNET_NOT_AVAIL"
+		},
+		{
+			isActive : true,
+			headerIID : "POPUP_MSG_HEADER",
+			okButtonIID : "POPUP_MSG_OK_BTN",
+			"isErrorMsgPop" : true,
+			key : "SERVER_DOWNUI",
+			msgStrIID : "SERVER_DOWN"
+		}
+	],
+	IOS_DRIVER : [
+		{
+			isActive : true,
+			headerIID : "POPUP_MSGDIALOGBOX_TXT",
+			okButtonIID : "POPUP_MSGDIALOG_OK_BTN",
+			key : "OK_CANCEL_POPUP_MSGUI"
+		},
+		# when response does not come
+		{
+			isActive : false,
+			headerIID : "POPUP_MSGDIALOGBOX_TXT",
+			okButtonIID : "POPUP_MSGDIALOG_OK_BTN",
+			isErrorMsgPop : true,
+			key : "RESPONSE_NOT_APPEARUI",
+			msgStrIID : "RESPONSE_NOT_APPEAR"
+		},
+		{
+			isActive : true,
+			headerIID : "POPUP_MSGDIALOGBOX_TXT",
+			okButtonIID : "POPUP_MSGDIALOG_OK_BTN",
+			"isErrorMsgPop" : true,
+			key : "INTERNET_NOT_AVAILUI",
+			msgStrIID : "INTERNET_NOT_AVAIL"
+		},
+		{
+			isActive : false,
+			headerIID : "POPUP_MSG_HEADER",
+			okButtonIID : "POPUP_MSG_OK_BTN",
+			"isErrorMsgPop" : true,
+			key : "SERVER_DOWNUI",
+			msgStrIID : "SERVER_DOWN"
+		}
+	]
+}

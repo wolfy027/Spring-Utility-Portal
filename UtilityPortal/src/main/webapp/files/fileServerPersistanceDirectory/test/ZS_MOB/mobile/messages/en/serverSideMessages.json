@@ -1,0 +1,38 @@
+[ {
+    "iid" : "INVALID_PIN",
+    "msgStr" : "You have entered an incorrect PIN."
+}, {
+    "iid" : "INCORRECT_CRED",
+    "msgStr" : "Incorrect details entered."
+}, {
+    "iid" : "WRONG_MATCH",
+    "msgStr" : "Passwords do not match."
+}, {
+    "iid" : "INVALID_EMAIL_ADDRESS",
+    "msgStr" : "Invalid Email Address.",
+    "isClientMsg" : true
+}, {
+    "iid" : "INCORRECT_OLD_PWD",
+    "msgStr" : "You have entered an incorrect Old Password."
+}, {
+    "iid" : "INVALID_LOGIN_CREDENTIALS",
+    "msgStr" : "Invalid Login Credentials."
+}, {
+    "iid" : "TERMINATED_EMPLOYEE_MSG",
+    "msgStr" : "You have been terminated from the organization."
+}, {
+    "iid" : "NEW_PWD_DO_NOT_MATCH",
+    "msgStr" : "New Password cannot be same as the Old Password."
+}, {
+    "iid" : "EMAIL_ADDRESS_PWD_RQD",
+    "msgStr" : "Email Address and Password required."
+}, {
+    "iid" : "NEW_PWD_DONT_MATCH_WITH_TEMP_PWD",
+    "msgStr" : "New Password cannot be same as the Temporary Password."
+}, {
+    "iid" : "INCORRECT_TEMP_PWD",
+    "msgStr" : "You have entered an incorrect Temporary Password."
+}, {
+    "iid" : "NEW_PASS_CANT_BE_SAME_AS_OLD",
+    "msgStr" : "New Password cannot be the same as the Old Password."
+}]

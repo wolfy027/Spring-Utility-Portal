@@ -1,0 +1,87 @@
+[
+	{
+		"iid":"LOGOUT_MSG",
+		"msgStr":"Do you want to Logout ?",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TEMP_PWD_REQ",
+		"msgStr":"Temporary Password is required.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NEW_PWD_REQ",
+		"msgStr":"New Password is required.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CONFIRM_PWD_REQ",
+		"msgStr":"Confirm Password is required.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PWD_DO_MATCH",
+		"msgStr":"Passwords do not match.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ON_SAME_PWD",
+		"msgStr":"New Password cannot be the same as the Temporary Password",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DOB_NOT_IN_FORMAT",
+		"msgStr":"Date of birth not in proper format",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PIN_REQ",
+		"msgStr":"PIN is required.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DOB_SSN_REQ",
+		"msgStr":"DOB and SSN last 4 digits required.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TMP_PWD_REQ",
+		"msgStr":"Temporary Password is required.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ON_SAME_NEW_OLD_PWD",
+		"msgStr":"New Password cannot be the same as the Old Password.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMAIL_PASSWORD_REQUIRED",
+		"msgStr":"Email Address and Password required.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_EMAIL_ADDRESS",
+		"msgStr":"Invalid Email Address.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMAIL_REQ",
+		"msgStr":"Email Address required.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INCRECT_DETAIL",
+		"msgStr":"Incorrect details entered.",
+		"isClientMsg":true
+	},
+	{
+		"iid" : "OLD_PWD_REQ",
+		"msgStr":"Old Password is required.",
+		"isClientMsg":true
+	},
+	{
+		"iid" : "RESPONSE_NOT_APPEAR",
+		"msgStr":"OOps, Something went wrong.",
+		"isClientMsg":true
+	}
+]

@@ -1,0 +1,157 @@
+[
+	{
+            "iid" : "SHIFT_PUBLISHED_MESSAGE",
+            "msgStr" : "Schedule Published Successfully."
+        },
+{
+            "iid" : "SHIFT_CREATED_PUBLISHED_MSG",
+            "msgStr" : "Shift Created and Published."
+        },
+{
+            "iid" : "SHIFT_CREATED_MSG",
+            "msgStr" : "Shift Created."
+        },
+{
+            "iid" : "SHIFT_UPDATED_PUBLISHED_MESSAGE",
+            "msgStr" : "Shift Updated and Published."
+        },
+{
+            "iid" : "SHIFT_UPDATED_MESSAGE",
+            "msgStr" : "Shift Updated."
+        },
+{
+            "iid" : "SHIFT_DELETED_MESSAGE",
+            "msgStr" : "SHIFT_DELETED"
+        },
+{
+            "iid" : "SHIFT_PUBLISHED_MSG",
+            "msgStr" : "Schedule Published Successfully."
+        },
+{
+            "iid" : "WEATHER_CITY_UPDATED",
+            "msgStr" : "Weather City updated Successfully."
+        },
+{
+            "iid" : "TIME_OFF_FLAG_ON_OFF_MSG",
+            "msgStr" : "Employees $DYNAMIC_MESSAGE$ Request Time Off for this day."
+        },
+{
+            "iid" : "CLOSED_DAY_MSG",
+            "msgStr" : "Closed day status updated."
+        },
+{
+            "iid" : "NO_SHIFT_TEMPLATE_NAME_MSG",
+            "msgStr" : "You cannot save blank schedule as template."
+        },
+{
+            "iid" : "BLANK_TEMPLATE_NAME_MSG",
+            "msgStr" : "Please enter Template Name."
+        },
+{
+            "iid" : "TEMPLATE_SAVED_MSG",
+            "msgStr" : "Template Saved."
+        },
+{
+            "iid" : "NO_TEMPLATE_FOUND_MSG",
+            "msgStr" : "No Templates found." 
+        },
+{
+            "iid" : "TEMPLATE_LOADED_MSG",
+            "msgStr" : "Template Loaded."
+        },
+{
+            "iid" : "SOURCE_BLANK_SHIFT_COPY_MSG",
+            "msgStr" : "Schedule cannot be copied as no Schedule exist for selected week."
+        },
+{
+            "iid" : "COPY_SCHEDULE_IN_PAST_MSG",
+            "msgStr" : "This feature cannot be used for historical schedules."
+        },
+{
+            "iid" : "COPY_SCHEDULE_SAME_WEEK",
+            "msgStr" : "Schedule cannot copied from same week." 
+        },
+{
+            "iid" : "COPY_SCHEDULE_SAME_DAY",
+            "msgStr" : "Schedule cannot copied from same day." 
+        },
+{
+            "iid" : "SCHEDULE_COPIED_MSG",
+            "msgStr" : "Schedule Copied." 
+        },
+{
+            "iid" : "TIME_OFF_ADDED_MSG",
+            "msgStr" : "Time Off Added."
+        },
+{
+            "iid" : "TIME_OFF_UPDATED_MSG",
+            "msgStr" : "Time Off Updated."
+        },
+{
+            "iid" : "TIME_OFF_DELETED_MSG",
+            "msgStr" : "Time Off Deleted."
+        },
+{
+            "iid" : "EMPLOYEE_ADDED_MSG",
+            "msgStr" : "Employee Added."
+        },
+{
+            "iid" : "EMPLOYEE_UPDATED_MSG",  
+            "msgStr" : "Employee Details Updated."
+        },		
+{
+            "iid" : "MANAGER_NOTE_ADDED_MSG",
+            "msgStr" : "Manager Notes Added."
+        },
+{
+            "iid" : "BROADCAST_MESSAGE_ADDED_MSG",
+            "msgStr" : "Broadcast Message Added."
+        },
+{
+			"iid" : "SHIFT_DELETED_EMPTAB_SP",
+			"msgStr" : "Shift Deleted."
+		},
+{
+			"iid"			: 		"STANDARD_SHIFT_DELETED",
+			"msgStr"	:		"Shift Deleted."
+		},
+{
+			"iid"			:		"EMPLOYEE_DELETE_MSG",
+			"msgStr"	:		"Employee Deleted."
+		},
+{
+			"iid"			:		"EMPLOYEE_UPDATED_MSG",
+			"msgStr"	:		"Employee Details Updated."
+		},
+{
+			"iid"			:		"STD_BREAK_TIME_GREATER",
+			"msgStr"	:		"The Shift duration should be greater than unpaid break."
+		},
+{
+            "iid" : "INVALID_SHIFT_TIMINGS",
+			"msgStr"	:		"Invalid Shift Time."
+		},
+{
+            "iid" : "INVALID_SHIFT_BREAK_HRS",
+	             "msgStr" : "The Shift duration should be greater than unpaid break."
+		},
+{
+		"iid"			:		"STD_DUPLICATE_ADD",
+		"msgStr"	:		"Standard Shift for Position already exists"
+		},
+
+{
+		"iid"			:		"BLANK_POSITION_NAME_MSG",
+		"msgStr"	:		"Position name cannot be blank."
+		},
+{
+		"iid"			:		"BLANK_EMPLOYEE_NAME_ONBOARDING",
+		"msgStr"	:		"Please fill all required fields."
+		},
+{
+            "iid" : "FORECAST_SAVED_MSG",
+            "msgStr" : "Forecast Saved." 
+        }
+		
+		
+]

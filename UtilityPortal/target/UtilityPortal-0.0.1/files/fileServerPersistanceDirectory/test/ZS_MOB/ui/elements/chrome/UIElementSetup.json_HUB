@@ -1,0 +1,136 @@
+{
+	byNameDic : {
+	},
+	byXpathDic : {
+		"PROD_LOGIN_XP_BTN" : "//*[@id='menu-item-12359']/a",
+		"CLOSE_BUTTON_XP" : "//button[contains(@ng-click,'cancel()')]",
+		"SCHEDULE_SCR_DAY_BUTTON_XP" : "//button[contains(@ng-click,'openDaySch()')]",
+		"SITE_SELECTOR_LIST_XP" : "//div[contains(@ng-init,'initializePopUp()')]/ul[contains(@class,'no-margin pop-content')]",
+		"APP_SCREEN_IMG" : "//img[contains(@ng-src, {0})]",
+		"CLIENT_SIDE_MESSAGE" : "//div[contains(@class,'pop') and contains(@style,'block')]",
+		"ALL_CLIENT_SIDE_MESSAGE" : "//div[contains(@class,'pop') and contains(@style,'block')]/div/span",
+		"DATE_PICKER_XP" : "//div[@id = 'datepkr-auto']/button[2]",
+		"SETTING_LANG_XP" : "//li[contains(@ng-if,'showMsgMailBox()')]",
+		"CHNG_LANG_XP" : "//a[contains(@ng-click,'langModal()')]",
+		"FORECAST_ICON_XP" : "//li[contains(@ng-init,'loadWeather()')]/span/a",
+		"EMPLOYEE_SCR_GENERAL_INF_MNU_XP" : "//a[contains(@ng-click,'showTabData('EMPMAIN_General_data')')]",
+		"EMPLOYEE_SCR_POSITION_MNU_XP" : "//a[contains(@ng-click,'showTabData('EMPMAIN_Jobs')']",
+		"EMPLOYEE_SCR_ADD_ALL_POSITION_LNK_XP" : "//a[contains(@ng-click,'selectAllPos()']", 
+		"EMPLOYEE_SCR_REMOVE_ALL_POSITION_LNK_XP" : "//a[contains(@ng-click,'removeAllPos()']",
+		"EMPLOYEE_SCR_CERTIFICATION_MNU_XP" : "//a[contains(@ng-click,'showTabData('EMPMAIN_Cert')']",
+		"EMPLOYEE_SCR_CERTIFICATION_ADD_ALL_CERTIFICATION_LNK_XP" : "//a[contains(@ng-click,'selectAllCert()']",
+		"EMPLOYEE_SCR_CERTIFICATION_REMOVE_ALL_CERTIFICATION_LNK_XP" : "//a[contains(@ng-click,'removeAllCert()']",
+		"EMPLOYEE_SCR_SITES_MNU_XP" : "//a[contains(@ng-click,'showTabData('EMPMAIN_Sites')']",
+		"EMPLOYEE_SCR_SITES_ADD_ALL_SITES_LNK_XP" : "//a[contains(@ng-click,'selectAllSite()']",
+		"EMPLOYEE_SCR_SITES_DELETE_SITE_ICN_XP" : "//a[contains(@ng-click,'deleteSiteMain(selectData)']",
+		"EMPLOYEE_SCR_NOTES_NOTES_MNU_XP" : "//a[contains(@ng-click,'showTabData('EMPMAIN_Notes')')]",
+		"SHOW_ALL_MESSAGES" : "//a[contains(@ng-click,'loadMsg();setPageTitle('My Messages');']",
+		"SCHEDULE_DEPARTMENT_DRP_XP" : "//button[contains(@ng-class,'eoLkDepartmentArray.length')]",
+		"RIB_NG_MODEL_XP" : "//div[contains(@ng-module,'ribWeb')]",
+		"SCHEDULE_SHIFTS_BOX_UI": "//div[contains(@ng-model,'employeeShift')]/label",
+		"SCHEDULE_SHIFTS_BREAK_XP" : "//i[contains(@ng-if,'employeeShift.breakMnts')]",
+		"SCHEDULE_SHIFT_ADD_SHIFTS_XP" : "//a[contains(@ng-click,'shiftSlot($event,true,true)')]",
+		"SCHEDULE_SHIFT_WARNNINGS_XP" :  "//i[contains(@ng-if,'warningLength()')]",
+		
+		################################## EMPLOYEE SCHEDULE FORM ###############################################
+		# Custom Shift Button
+		"SCHEDULE_SHIFT_CUSTOM_SHIFT_BTN_XP" : "//div[contains(@ng-click,'showCustShift = true')]",
+		
+		# Standard Shift Button
+		"SCHEDULE_SHIFT_STANDARD_SHIFT_BTN_XP" : "//div[contains(@ng-click,'showCustShift = false')]",
+		
+		# SHIFT SCHEDULE TIME 
+		"CUSTOM_SHIFT_TIME_BTN_XP" : "//input[@ng-model = 'rangeModel']",
+		
+		# Save As a Standard Shift
+		"CUSTOM_SHIFT_SAVE_SHIFT_CHKBX_XP" : "//input[@ng-model = 'shift.createStdShift']",
+		
+		# Notes
+		"CUSTOM_SHIFT_NOTES_TB_XP" : "//textarea[@name = 'notes' and @ng-model = 'shift.shiftNotes']",
+		
+		# Job Position
+		"CUSTOM_SHIFT_JOB_POSITION_DRPDN_XP" : "//select[@ng-model = 'empPositionHash.selectedPosition']",
+		
+		# Create And Publish Button
+		"SCHEDULE_SHIFT_CREATE_PUBLISH_BTN_XP" : "//a[contains(@ng-click,'create(customShiftForm,true,shift.createStdShift)')]",
+		
+		# Create Shift
+		"SCHEDULE_SHIFT_CREATE_BTN_XP" : "//a[contains(@ng-click,'create(customShiftForm,false,shift.createStdShift)')]",
+		
+		# Time Off
+		"SCHEDULE_SHIFT_TIME_OFF_BTN_XP" : "//a[contains(@ng-click,'editTimeOff()')]",
+		
+		# SELECT STANDARD SHIFT
+		"SCHEDULE_SHIFT_TIME_BTN_XP" : "//div[contains(@ng-if,'!showCustShift')]",
+		
+		# Delete Shift
+		"SCHEDULE_FORM_DELETE_BTN_XP" : "//div[contains(@ng-click = 'isDeleted = true')]",
+		
+		# Update Shift
+		"SCHEDULE_FORM_UPDATE_BTN_XP" : "//a[contains(@ng-click,'create(customShiftForm,selectedPosition,false,shift.createStdShift)')]",
+		
+		# Schedule Block 
+		"SCHEDULE_FORM_CONTAINER" : "//div[contains(@ng-if,'!showCustShift')]",
+		
+		# Standard Shift Slots
+		"SCHEDULE_STANDARD_SHIFTS_SLOT_BTN_XP" : "//div[contains(@ng-model,'shiftSlot')]",
+		
+		# Standard Shift Slots Timings And Job Code
+		"SCHEDULE_STANDARD_SHIFTS_SLOT_TIMINGS_XP" : "//span[contains(@ng-click,'assignShift(shiftSlot)')]/span[1]",
+		
+		# Schedule Job Position
+		"CUSTOM_SHIFT_JOB_POSITION_DRPDN_XP" : "//select[contains(@ng-model,'empPositionHash.selectedPosition')]",
+		########################################## TIME OFF ########################################
+		
+		# Time Off Start Date
+		"TIME_OFF_START_DATE_DPK_XP" : "//"
+	},
+	byIDDic : {
+		"LOGIN_PAGE_EMAILID_PROD_TB_ID" : "login-username",
+		"LOGIN_PAGE_EMAIL_PASSWORD_PROD_TB_ID" : "login-password",
+		"LOGIN_PAGE_SIGN_IN_PROD_TB_ID" : "do-sign-in",
+		"EMAILID_TB_ID" : "Entity_EOSSOUser_Field_emailIDAf",
+		"PASSWORD_TB_ID" : "Entity_EOSSOUser_Field_passwordHashAf",
+		"REMEMBER_ME_CHBX_ID" : "rememberMe",
+		"SIGNUP_BTN_ID" : "signUpLinkBtn",
+		"FORGOT_PASSWORD_LNK_ID" : "doFwdPwd",
+		"LOGIN_BTN_ID" : "doLogin",
+		"HEADER_MESSAGE_IID_ID" : "ui_notifIt", # For Header Message
+		"EMPLOYEE_SCR_FIRST_NAME_TB_ID" : "Entity_EOEmpMain_Field_firstNameAf",
+		"EMPLOYEE_SCR_LAST_NAME_TB_ID" : "Entity_EOEmpMain_Field_lastNameAf",
+		"EMPLOYEE_SCR_EMAIL_TB_ID" : "Entity_EOEmpMain_Field_emailIDAf",
+		"EMPLOYEE_SCR_PHONE_NUMBER_TB_ID" : "Entity_EOEmpMain_Field_cellNumberAf",
+		"EMPLOYEE_SCR_PAY_RATE_TB_ID" : "Entity_EOEmpMain_Field_payRateAf",
+		"EMPLOYEE_SCR_MINOR_CHK_ID" : "Entity_EOEmpMain_Field_isMinorAf",
+		"EMPLOYEE_SCR_ENABLE_ACA_CHK_ID" : "Entity_EOEmpMain_Field_isMinorAf",
+		"EMPLOYEE_SCR_MAX_WEEK_PER_HOUR_CHK_ID" : "Entity_EOEmpMain_Field_maxHrsPerWk",
+		"EMPLOYEE_SCR_ADD_BUTTON_ID" : "EOEmpMain_Search_MDL_ADD_Btn",
+		"EMPLOYEE_SCR_NOTES_TB_ID" : "Entity_EOEmpMain_Field_notesAf",
+		"SCHEDULE_TABLE_ID" : "schTable",
+		"SCHEDULE_SCR_WEEK_BUTTON_ID" : "week",
+		
+		################################## EMPLOYEE SCHEDULE FORM ###############################################
+		# Shift Form 
+		SCHEDULE_BLOCK_SCREEN : "customShiftForm",
+		
+		# Custom Shift Unpaid Breaks
+		"CUSTOM_SHIFT_UNPAID_BREAK_DRPDN_ID" : "shiftSlotPaidHr"
+	},
+	byClassNameDic : {
+	},
+	byLinkTextDic : {
+	},
+	byPartialTextDic :{
+	},
+	byTagNameDic : {
+	},
+	byAccessibilityIDDic :{
+	},
+	byCSSSelector :{
+	},
+	# USED FOR GETTING EXPRESSION
+	byNgRepeaterDic : {
+		################################## EMPLOYEE SCHEDULE BLOCK ###############################################
+		"UI_EMPLOYEE_SCH_BLOCK" : "day in eoSchDayMainArray"
+	}
+}

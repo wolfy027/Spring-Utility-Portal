@@ -1,0 +1,890 @@
+[
+	{
+		"iid":"EMP_NOT_ADDED",
+		"msgStr":"Employee Not Added."
+	},
+	{
+		"iid":"INCORRECT_LOGIN_CRED",
+		"msgStr":"Incorrect Login Credentials."
+	},
+	{
+		"iid":"EMAIL_EXIST",
+		"msgStr":"Email ID already exist"
+	},
+	{
+		"iid":"CUSTOMER_NOT_VERIFIED",
+		"msgStr":"Account verification is pending.Please check your mail for account verification"
+	},
+	{
+		"iid":"EMAIL_IS_NOT_CORRECT",
+		"msgStr":"Email id is not in valid format."
+	},
+	{
+		"iid":"FIRSTNAME_IS_LT",
+		"msgStr":"First name is less than required length"
+	},
+	{
+		"iid":"LASTNAME_IS_LT",
+		"msgStr":"Last name is less than required length"
+	},
+	{
+		"iid":"NEW_Customer",
+		"msgStr":"A temporary Password has been sent to your registered E-Mail ID. Please use that to Log In into HubWorks."
+	},
+	{
+		"iid":"VERIFY_CODE_MISMATCH",
+		"msgStr":"verification code mismatch error"
+	},
+	{
+		"iid":"VERIFY_LINK_EXPIRED",
+		"msgStr":"Expired Link!!! Verification mail resent. Please Check your mail for account verification"
+	},
+	{
+		"iid":"FORGOT_PWD",
+		"msgStr":"An email with a temporary password has been sent to your registered email address."
+	},
+	{
+		"iid":"RESEND_PWD_EMP",
+		"msgStr":"An email with temporary password has been sent to {0} registered email address."
+	},
+	{
+		"iid":"EMAIL_NOT_REGISTERED",
+		"msgStr":"Employee email id is not registered."
+	},
+	{
+		"iid":"EMPLOYEE_EXISTS",
+		"msgStr":"An employee with email-id {0} already exists."
+	},
+	{
+		"iid":"EMPLOYEE_EXISTS_EMPID",
+		"msgStr":"Same Employee ID exists for either the same site or another site."
+	},
+	{
+		"iid":"FORGOT_PWD_ERROR",
+		"msgStr":"Enter a valid email address."
+	},
+	{
+		"iid":"DUPLICATE_LK_POSITION",
+		"msgStr":"Position already exist with this name"
+	},
+	{
+		"iid":"DUPLICATE_LK_DEPARTMENT",
+		"msgStr":"Department already exist with this name"
+	},
+	{
+		"iid":"SHIFT_PUBLISH_SUCCESS",
+		"msgStr":"Schedule Published Successfully."
+	},
+	{
+		"iid":"CNT_PUBLISH_SHIFT",
+		"msgStr":"Problem in publishing schedule"
+	},
+	{
+		"iid":"EMP_SAVED",
+		"msgStr":"Employee Details Updated."
+	},
+	{
+		"iid":"EMP_ADDED",
+		"msgStr":"Employee Added."
+	},
+	{
+		"iid":"POSITION_SAVED",
+		"msgStr":"Position  Updated."
+	},
+	{
+		"iid":"CERT_SAVED",
+		"msgStr":"Certification  Updated."
+	},
+	{
+		"iid":"DUPLICATE_LK_CERT",
+		"msgStr":"Certification already exist with this name"
+	},
+	{
+		"iid":"DEPT_SAVED",
+		"msgStr":"Department  Updated."
+	},
+	{
+		"iid":"SHIFT_OFFER_CANCELED",
+		"msgStr":"Swap shift request cancelled."
+	},
+	{
+		"iid":"SHIFT_DISAPPROVED",
+		"msgStr":"Shift offer has been disapproved."
+	},
+	{
+		"iid":"SHIFT_APPROVED",
+		"msgStr":"Shift Swapped."
+	},
+	{
+		"iid":"TIMEOFF_APPROVED",
+		"msgStr":"Timeoff  Approved."
+	},
+	{
+		"iid":"TIMEOFF_DISAPPROVED",
+		"msgStr":"Time Off Disapproved."
+	},
+	{
+		"iid":"AVAL_DISAPPROVED",
+		"msgStr":"Availability Request Disapproved."
+	},
+	{
+		"iid":"AVAL_APPROVED",
+		"msgStr":"Availability Approved."
+	},
+	{
+		"iid":"TIMEOFF_APPROVEALL",
+		"msgStr":"All Time Off Approved Successfully"
+	},
+	{
+		"iid":"TIMEOFF_DISAPPROVEALL",
+		"msgStr":"All Time Off Disapproved Successfully"
+	},
+	{
+		"iid":"CNT_CANCEL_PAST_TIMEOFF",
+		"msgStr":"Can not cancel Time off with past date"
+	},
+	{
+		"iid":"NO_EMPMAIN_FOR_USER",
+		"msgStr":"No Employee exist for your email"
+	},
+	{
+		"iid":"SESSION_TIMEOUT",
+		"msgStr":"Session Timed out. Please relogin and continue."
+	},
+	{
+		"iid":"SCH_TEMPLATE_LOADED",
+		"msgStr":"Schedule Template loaded successfully"
+	},
+	{
+		"iid":"SCH_COPIED",
+		"msgStr":"Schedule Copied."
+	},
+	{
+		"iid":"NO_SCH_EXIST",
+		"msgStr":"Schedule can't be copied as no Schedule exist for selected week."
+	},
+	{
+		"iid":"CNT_COPY_SAME_WEEK",
+		"msgStr":"Schedule can't copied from same week"
+	},
+	{
+		"iid":"CNT_COPY_SAME_DAY",
+		"msgStr":"Schedule can't copied from same day"
+	},
+	{
+		"iid":"PWD_CHANGED_SUCCESS",
+		"msgStr":"Password changed."
+	},
+	{
+		"iid":"WRONG_PWD",
+		"msgStr":"Incorrect Old Password Entered."
+	},
+	{
+		"iid":"PWD_MISMATCH",
+		"msgStr":"Confirm Password and New Password Fields Mismatch."
+	},
+	{
+		"iid":"DUPLICATE_EOSiteMain",
+		"msgStr":"Site already exist with this name"
+	},
+	{
+		"iid":"PASSWORD_CHANGED",
+		"msgStr":"Password Updated."
+	},
+	{
+		"iid":"EMP_NOT_EXIST_FOR_USER",
+		"msgStr":"Employee does not exist for user"
+	},
+	{
+		"iid":"CNT_ADD_SUPER_USR",
+		"msgStr":"You do not have authorization to add this employee with Employee Type as {0}. Please contact your Manager."
+	},
+	{
+		"iid":"CNT_UPDATE_SUPER_USR",
+		"msgStr":"You do not have authorization to edit this employee with Employee Type as {0}. Please contact your Manager."
+	},
+	{
+		"iid":"TIMEOFF_EXISTS",
+		"msgStr":"Overlapping Time Off Exists"
+	},
+	{
+		"iid":"STDSHIFT_EXISTS",
+		"msgStr":"Standard Shift for Position already exists."
+	},
+	{
+		"iid":"SHIFT_CANNOT_APPROVE",
+		"msgStr":"This shift cant be approved as another shift exists for this employee for the same time."
+	},
+	{
+		"iid":"TIMEOFF_CANNOT_APPROVED",
+		"msgStr":"This shift cant be approved as a time off exist for the same time."
+	},
+	{
+		"iid":"EMP_POSITION_NOT_EXIST_FOR_SHIFT",
+		"msgStr":"Position {0} associated with the shift {1} does'nt belong to the employee."
+	},
+	{
+		"iid":"PROBLEM_INPERFORM_ACTION",
+		"msgStr":"Couldn't perform action id :  {0}  Message: {1}"
+	},
+	{
+		"iid":"SOME_SERVER_PROB",
+		"msgStr":"Something went wrong. Please contact administrator or Help desk."
+	},
+	{
+		"iid":"BLANK_USERNAME_PASSWORD",
+		"msgStr":"Please enter username/password."
+	},
+	{
+		"iid":"INCORRECT_LOGIN_CRED",
+		"msgStr":"Incorrect Login Credentials."
+	},
+	{
+		"iid":"USER_ACC_DEACTIVATED",
+		"msgStr":"Your account is deactivated."
+	},
+	{
+		"iid":"SHIFT_OFFERED",
+		"msgStr":"Shift Offered/Shift Unoffered."
+	},
+	{
+		"iid":"TIMEOFF_ADDED",
+		"msgStr":"Time Off Requested."
+	},
+	{
+		"iid":"TIMEOFF_DELETED",
+		"msgStr":"Time Off Request Cancelled."
+	},
+	{
+		"iid":"SHIFT_OVERLAP",
+		"msgStr":"Overlapping shift"
+	},
+	{
+		"iid":"SHIFT_REJECTED",
+		"msgStr":"Shift Rejected."
+	},
+	{
+		"iid":"SHIFT_ACCEPTED",
+		"msgStr":"Shift Accepted."
+	},
+	{
+		"iid":"SHIFT_UPDATED",
+		"msgStr":"Shift Updated."
+	},
+	{
+		"iid":"TEMPLATE_SAVED",
+		"msgStr":"Template Saved."
+	},
+	{
+		"iid":"STD_SHIFT_ADDED",
+		"msgStr":"Shift Added."
+	},
+	{
+		"iid":"STD_SHIFT_DTVIOL",
+		"msgStr":"Shift exceeds daily hours prior to double time."
+	},
+	{
+		"iid":"STD_SHIFT_OTVIOL",
+		"msgStr":"Shift exceeds daily hours prior to over time."
+	},
+	{
+		"iid":"STD_SHIFT_BRKVIOL",
+		"msgStr":"Shift breaches meal break violation."
+	},
+	{
+		"iid":"STD_SHIFT_DELETE",
+		"msgStr":"Shift Deleted."
+	},
+	{
+		"iid":"STD_SHIFT_UPDATE",
+		"msgStr":"Shift Updated."
+	},
+	{
+		"iid":"EMP_DELETED_ALL_SITES",
+		"msgStr":"Employee Deleted From All Sites."
+	},
+	{
+		"iid":"EMP_DELETED",
+		"msgStr":"Employee Deleted."
+	},
+	{
+		"iid":"EMP_DELETED_CURRENT_SITE",
+		"msgStr":"Employee Deleted From Current Site."
+	},
+	{
+		"iid":"AVAL_UPDATE",
+		"msgStr":"Availability Updated."
+	},
+	{
+		"iid":"AVAL_REQUEST",
+		"msgStr":"Availability Request Updated."
+	},
+	{
+		"iid":"AVAL_CANCEL",
+		"msgStr":"Availability Request Cancelled."
+	},
+	{
+		"iid":"DEPT_ADDED",
+		"msgStr":"Department  Added."
+	},
+	{
+		"iid":"DEPT_DELETE",
+		"msgStr":"Department  Deleted."
+	},
+	{
+		"iid":"POSITION_ADDED",
+		"msgStr":"Position  Added."
+	},
+	{
+		"iid":"CERT_ADDED",
+		"msgStr":"Certification Added."
+	},
+	{
+		"iid":"POSITION_DELETE",
+		"msgStr":"Position  Deleted."
+	},
+	{
+		"iid":"CERT_DELETE",
+		"msgStr":"Certification Deleted."
+	},
+	{
+		"iid":"SITE_ADD",
+		"msgStr":"Site  Added."
+	},
+	{
+		"iid":"SITE_UPDATE",
+		"msgStr":"Site  Updated."
+	},
+	{
+		"iid":"SITE_DELETE",
+		"msgStr":"Site  Deleted."
+	},
+	{
+		"iid":"DATA_SAVED",
+		"msgStr":"Data Saved."
+	},
+	{
+		"iid":"MSG_SENT",
+		"msgStr":"Message Sent."
+	},
+	{
+		"iid":"OLD_NEW_PASS_SAME",
+		"msgStr":"Old and New password can not be same."
+	},
+	{
+		"iid":"NEW_PASS_BLANK",
+		"msgStr":"New Password can't be blank."
+	},
+	{
+		"iid":"OLD_PASS_BLANK",
+		"msgStr":"Old Password can't be blank."
+	},
+	{
+		"iid":"CONF_PASS_BLANK",
+		"msgStr":"Confirm Password can't be blank."
+	},
+	{
+		"iid":"PASWD_SET",
+		"msgStr":"Your Password has been changed successfully."
+	},
+	{
+		"iid":"CNT_DELETE_SELF",
+		"msgStr":"You cannot delete your own record."
+	},
+	{
+		"iid":"CLOSED_DAY_ALERT",
+		"msgStr":"Your time off includes closed day."
+	},
+	{
+		"iid":"SOCIAL_INVALID_LOGIN",
+		"msgStr":"The {0} ID you entered is not associated with a Zip Schedules account. To continue, you now need to create a Zip Schedules account."
+	},
+	{
+		"iid":"SOCIAL_CONNECT_PBLM",
+		"msgStr":"Not able to connect with social account."
+	},
+	{
+		"iid":"SOCIAL_DISCONNECT",
+		"msgStr":"Your Zip Schedules account has been disconnected succesfully with {0}."
+	},
+	{
+		"iid":"DUP_SOCIAL_ACC",
+		"msgStr":"{0} ID is associated with other user account."
+	},
+	{
+		"iid":"NO_SOCIAL_ACC",
+		"msgStr":"{0} account does not associated with Zip Schedules account."
+	},
+	{
+		"iid":"SOCIAL_CONNECT_SUCCESS",
+		"msgStr":"Your Zip Schedules account has been linked succesfully with {0}. You can now login using {0} Credentials."
+	},
+	{
+		"iid":"OFFER_CANNOT_ACCEPT",
+		"msgStr":"Overlaping shift exist. You cannot accept this offer."
+	},
+	{
+		"iid":"DUPLICATE_SITE",
+		"msgStr":"Duplicate Site can not be added."
+	},
+	{
+		"iid":"OPEN_PUNCH_EXISTS",
+		"msgStr":"You did not sign out your last punch. New punch cannot be added."
+	},
+	{
+		"iid":"ENDTIME_GT_STARTTIME",
+		"msgStr":"End time is greater than start time. Punch cannot be added."
+	},
+	{
+		"iid":"OVERLAP_PUNCH_TIME",
+		"msgStr":"There is an overlap punch exist."
+	},
+	{
+		"iid":"OVERLAP_BREAK_TIME",
+		"msgStr":"There is an overlap break exist."
+	},
+	{
+		"iid":"ONGOING_PUNCH_OVERLAP",
+		"msgStr":"The added punch details overlaps with an ongoing punch."
+	},
+	{
+		"iid":"PUNCH_ADDED",
+		"msgStr":"Clock In added successfully."
+	},
+	{
+		"iid":"PUNCHOUT_ADDED",
+		"msgStr":"Clock Out added successfully."
+	},
+	{
+		"iid":"OPEN_BREAK",
+		"msgStr":"You have not ended your last break."
+	},
+	{
+		"iid":"BREAK_STARTED",
+		"msgStr":"Break started successfully."
+	},
+	{
+		"iid":"BREAK_ENDED",
+		"msgStr":"Break ended successfully."
+	},
+	{
+		"iid":"NO_PUNCH_OR_NO_BRK",
+		"msgStr":"Either no punch exists or no break exists."
+	},
+	{
+		"iid":"OWNER_NOT_EMP",
+		"msgStr":"Owner is not added as an employee."
+	},
+	{
+		"iid":"STARTTIME_GT_CURRENTTIME",
+		"msgStr":"Start time is greater than current time. Punch cannot be added."
+	},
+	{
+		"iid":"ENDTIME_GT_CURRENTTIME",
+		"msgStr":"End time is greater than current time. Punch cannot be added."
+	},
+	{
+		"iid":"ENDTIME_LT_STARTTIME",
+		"msgStr":"End time is earlier than punch start time. Punch cannot be added."
+	},
+	{
+		"iid":"BREAKSTART_LT_STARTTIME",
+		"msgStr":"Break start time is earlier than punch start time. Break cannot be added."
+	},
+	{
+		"iid":"BREAK_STARTTIME_GT_CURRENTTIME",
+		"msgStr":"Break start time is greater than current time. Break cannot be added."
+	},
+	{
+		"iid":"BREAK_ENDTIME_GT_CURRENTTIME",
+		"msgStr":"Break end time is greater than current time. Break cannot be added."
+	},
+	{
+		"iid":"BREAKEND_LT_BREAKSTART",
+		"msgStr":"Break end time is earlier than break start time. Break cannot be added."
+	},
+	{
+		"iid":"SUGGESTION_CLOCKOUT",
+		"msgStr":"Suggested to Clock Out at {0}"
+	},
+	{
+		"iid":"SUGGESTION_BREAKOUT",
+		"msgStr":"Suggested to Take Break at {0}"
+	},
+	{
+		"iid":"INVALID_BREAK_OUT",
+		"msgStr":"Invalid End Break request"
+	},
+	{
+		"iid":"NO_OPEN_PUNCH",
+		"msgStr":"There is no open punch."
+	},
+	{
+		"iid":"CNT_COPY_SAME_DAY",
+		"msgStr":"Schedule can't copied from same day"
+	},
+	{
+		"iid":"WEEK_DIFF_GT",
+		"msgStr":"Difference of weeks between two dates is greater than 8."
+	},
+	{
+		"iid":"NOT_SAME_WEEK",
+		"msgStr":"Punch can be modified for same week."
+	},
+	{
+		"iid":"SAME_USER_CNT_SUGGEST_BRK_IN",
+		"msgStr":"You cannot suggest yourself to Break In."
+	},
+	{
+		"iid":"SAME_USER_CNT_SUGGEST_CLK_OUT",
+		"msgStr":"You cannot suggest yourself to Clock Out."
+	},
+	{
+		"iid":"APPROVED_ALL",
+		"msgStr":"All Punches are Approved"
+	},
+	{
+		"iid":"PAYROLL_UNFINALIZED",
+		"msgStr":"Payroll Initialized successfully."
+	},
+	{
+		"iid":"PAYROLL_PUBLISH_SUCCESS",
+		"msgStr":"Payroll Finalized successfully."
+	},
+	{
+		"iid":"PAYROLL_UNFINALIZED_DAYS_EXCEEDED",
+		"msgStr":"You cannot unfinalize the payroll as the permitted number of days to unfinalize has exceeded"
+	}
+	,
+	{
+		"iid":"TRIAL_SUBS",
+		"msgStr":"{0} subscribed for 45 days trial period for all sites."
+	},
+	{
+		"iid":"CNT_APPROVE_PUNCH_SUPERUSER",
+		"msgStr":"All punches except manager's punches are approved. Contact the Manager to approve the same"
+	},
+	{
+		"iid":"INVOICE_GENERATED",
+		"msgStr":"Invoice generated."
+	},
+	{
+		"iid":"TRIAL_EXPIRED",
+		"msgStr":"Trial Expired"
+	},
+	{
+		"iid":"DAYS_TO_EXPIRE",
+		"msgStr":"{0} Day(s) To Expire"
+	},
+	{
+		"iid":"DAYS_TO_LOCK_APP",
+		"msgStr":"App will be locked in {0} Day(s)"
+	},
+	{
+		"iid":"DAYS_TO_LOCK_ACC",
+		"msgStr":"Account will be locked in {0} Day(s)"
+	},
+	{
+		"iid":"APP_LOCKED",
+		"msgStr":"App Locked"
+	},
+	{
+		"iid":"PAYMENT_FAIL",
+		"msgStr":"Problem processing the statement"
+	},
+	{
+		"iid":"PAID_APP_LOCK",
+		"msgStr":"All paid app(s) locked."
+	},
+	{
+		"iid":"SUGGEST_MSG",
+		"msgStr":"Suggestion message has been sent to employee successfully."
+	},
+	{
+		"iid":"DELETE_PUNCH",
+		"msgStr":"Punch deleted successfully."
+	},
+	{
+		"iid":"CNT_CLEAR_PAST_DAY",
+		"msgStr":"Cannot clear schedule on past day."
+	},
+	{
+		"iid":"ACTUAL_UPDATED",
+		"msgStr":"Actuals updated successfully."
+	},
+	{
+		"iid":"FCT_UPDATED",
+		"msgStr":"Forecast Updated."
+	},
+	{
+		"iid":"FCT_DELETED",
+		"msgStr":"Forecast Deleted."
+	},
+	{
+		"iid":"FCT_EXISTS",
+		"msgStr":"Forecast for week {0} already exists."
+	},
+	{
+		"iid":"ACT_EXISTS",
+		"msgStr":"Actual for week {0} already exists."
+	},
+	{
+		"iid":"MATRIX_UPDATED",
+		"msgStr":"Forecast Settings Saved."
+	},
+	{
+		"iid":"FCT_SETTING_UPDATED",
+		"msgStr":"Forecast Settings updated."
+	},
+	{
+		"iid":"NOTE_ADDED",
+		"msgStr":"Note Added Successfully."
+	},
+	{
+		"iid":"CUSTEXP_ADDED",
+		"msgStr":"Customer Experience Added Successfully."
+	},
+	{
+		"iid":"COMMENT_ADDED",
+		"msgStr":"Comment Added."
+	},
+	{
+		"iid":"LOG_SHARED",
+		"msgStr":"Note shared successfully."
+	},
+	{
+		"iid":"CUSTEXP_SHARED",
+		"msgStr":"Customer experience shared successfully."
+	},
+	{
+		"iid":"EVENT_ADDED",
+		"msgStr":"Event Added."
+	},
+	{
+		"iid":"EVAL_ADDED",
+		"msgStr":"{0} Added."
+	},
+	{
+		"iid":"LIAB_ADDED",
+		"msgStr":"{0} Added."
+	},
+	{
+		"iid":"CONTACT_ADDED",
+		"msgStr":"Contact Added Successfully"
+	},
+	{
+		"iid":"INVALID_PIN",
+		"msgStr":"Incorrect Login Credentials."
+	},
+	{
+		"iid":"ZERO_MIN_PUNCH",
+		"msgStr":"The minimum punch time can be 1 minute. Please Clock Out accordingly."
+	},
+	{
+		"iid":"STAND_ALONE_DISABLE",
+		"msgStr":"You do not have access to Zip Clock Standalone. Either you are not subscribed to Professional version of Zip Clock or this functionality has been disabled by the administrator."
+	},
+	{
+		"iid":"HIST_OPEN_PUNCH",
+		"msgStr":"Clock Out time cannot be blank for historical punch."
+	},
+	{
+		"iid":"MIN_BRK_MESS",
+		"msgStr":"The minimum break time can be 1 min. Please break out accordingly."
+	},
+	{
+		"iid":"APP_ALREADY_SUBSCRIBED",
+		"msgStr":"{0} is already subscribed to your HubWorks account."
+	},
+	{
+		"iid":"APP_SUBSCRIBED_SUCCESS",
+		"msgStr":"{0} has been subscribed to your HubWorks account."
+	},
+	{
+		"iid":"APP_NOT_CONFIGURED",
+		"msgStr":"{0} application has not been configured yet by the Administrator. Please contact your administrator to access it."
+	},
+	{
+		"iid":"OTHER_SRC_STARTED_CLOCK",
+		"msgStr":"Clock In has already been added from some other device."
+	},
+	{
+		"iid":"OTHER_SRC_STARTED_BREAK",
+		"msgStr":"Break has already been started from some other device."
+	},
+	{
+		"iid":"OTHER_SRC_END_THE_BREAK",
+		"msgStr":"Break has already been ended from some other device."
+	},
+	{
+		"iid":"OTHER_SRC_END_THE_PUNCH",
+		"msgStr":"Clock Out has already been added from some other device."
+	},
+	{
+		"iid":"VOLDISCOUNT_ADDED",
+		"msgStr":"Volume Discount Added Successfully."
+	},
+	{
+		"iid":"CREDIT_ADDED",
+		"msgStr":"Credit Added Successfully."
+	},
+	{
+		"iid":"CREDIT_APPROVED",
+		"msgStr":"Credit Approved Successfully."
+	},
+	{
+		"iid":"CREDIT_DISAPPROVED",
+		"msgStr":"Credit Disapproved Successfully."
+	},
+	{
+		"iid":"CREDIT_DELETED",
+		"msgStr":"Credit Deleted Successfully."
+	},
+	{
+		"iid":"COUPON_ADDED",
+		"msgStr":"Coupon(s) has been added successfully."
+	},
+	{
+		"iid":"COUPON_UPDATED",
+		"msgStr":"Coupon(s) has been updated successfully."
+	},{
+		"iid":"COUPON_APPLIED",
+		"msgStr":"Coupon applied.This will reflect in the next month statement"
+	},{
+		"iid":"INVALID_COUPON_CODE",
+		"msgStr":"Invalid Coupon Code"
+	},
+	{
+		"iid":"CAT_ADDED",
+		"msgStr":"Category added Successfully."
+	},
+	{
+		"iid":"ACTION_ADDED",
+		"msgStr":"Action type added Successfully."
+	},
+	{
+		"iid":"SUBTYPE_ADDED",
+		"msgStr":"Category type added Successfully."
+	},
+	{
+		"iid":"DUPLICATE_CAT",
+		"msgStr":"Category with name {0} already exists."
+	},
+	{
+		"iid":"DELETE_SUCCESS",
+		"msgStr":"Deleted Successfully."
+	},
+	{
+		"iid":"DUPLICATE_ACTION",
+		"msgStr":"Action with name {0} already exists."
+	},
+	{
+		"iid":"DUPLICATE_SUBTYPE",
+		"msgStr":"Subtype with name {0} already exists."
+	},
+	{
+		"iid":"SUBTYPE_UPDATED",
+		"msgStr":"Category type updated Successfully."
+	},
+	{
+		"iid":"ACTION_UPDATED",
+		"msgStr":"Action type updated Successfully."
+	},
+	{
+		"iid":"CAT_UPDATED",
+		"msgStr":"Category updated Successfully."
+	},
+	{
+		"iid":"CAT_DELETED",
+		"msgStr":"Category deleted Successfully."
+	},
+	{
+		"iid":"SUBTYPE_DELETED",
+		"msgStr":"Category type deleted Successfully."
+	},
+	{
+		"iid":"ACTION_DELETED",
+		"msgStr":"Action type deleted Successfully."
+	},
+	{
+		"iid":"COUPON_ALREADY_APPLIED",
+		"msgStr":"{0} is already applied."
+	},
+	{
+		"iid":"ADJUSTMENT",
+		"msgStr":"Adjustment"
+	},
+	{
+		"iid":"TRIAL",
+		"msgStr":"Trial"
+	},
+	{
+		"iid":"MANUAL_CREDIT",
+		"msgStr":"Credit"
+	},
+	{
+		"iid":"TAX",
+		"msgStr":"Tax"
+	},
+	{
+		"iid":"PAYMENT",
+		"msgStr":"Payment"
+	},
+	{
+		"iid":"DISCOUNT",
+		"msgStr":"Volume Discount"
+	},
+	{
+		"iid":"COUPON_DISCOUNT",
+		"msgStr":"Coupon Discount"
+	},
+	{
+		"iid":"SUBSCRIPTION",
+		"msgStr":"Subscription"
+	},
+	{
+		"iid":"NO_SUBSCRIBED_APP",
+		"msgStr":"There is no subscribed app(s)."
+	},
+	{
+		"iid":"UNSUBSCRIBED_SUCCESFULLY",
+		"msgStr":"App(s) has been unsubscribed succesfully."
+	},
+	{
+		"iid":"NO_APP_UNSBSCRIBE_TODAY",
+		"msgStr":"Sorry you cannot unsubscribe as you have already made a purchase for the day."
+	},
+	{
+		"iid":"MAX_EMP_LIMIT_CURRENT_SITE",
+		"msgStr":"You have reached the max limit of employees for the current edition for {0}. Please contact your Administrator to upgrade the edition."
+	},
+	{
+	"iid":"FORGOT_PWD_ERROR",
+	"msgStr":"Enter a valid email address."
+	},
+	{
+		"iid":"CUSTAPP_INACTIVE",
+		"msgStr":"You are not subscribed to {0}. To subscribe visit {1}."
+	},
+	{
+		"iid":"SITE_REG_NOT_COMPLETE",
+		"msgStr":"The Administarator has not yet configured site(s) for your organization."
+	},
+	{
+		"iid" : "ALL_TASK_COMPLETED",
+		"msgStr" : "All tasks has been completed."
+	},
+	{
+		"iid":"APP_NT_SUBSCRIBED",
+		"msgStr":" {0} has not been subscribed to {1} Hubworks account"
+	},
+	{
+		"iid":"APP_ALREADY_UNSUBSCRIBED",
+		"msgStr":" App has already been unsubscribed from HubWorks account"
+	},
+	{
+		"iid":"NO_EMPMAIN_FOR_USER",
+		"msgStr":" No Employee exist for email ID {0}"
+	}
+	
+]

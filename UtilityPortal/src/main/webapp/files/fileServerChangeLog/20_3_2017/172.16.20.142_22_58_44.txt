@@ -1,0 +1,163 @@
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	Mon Mar 20 22:58:44 IST 2017-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+Change made to File :		/files/fileServerPersistanceDirectory/test/ZS_MOB/mobile/elements/android/UIElementSetup.json
+Computer Name :		jtjohny.anrsoft.local
+IP Addr :		172.16.20.142
+Client Browser :		Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36
+
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	Text Before Change-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+# TB = Text Box, BTN = Button, DS = Date Selector, TXT = text, TS = Time Selector, LBL = Label
+{
+	byNameDic : {
+		"SELECT_AN_OWNER_OPERATOR_LBL" 							: 	"Select an Owner Operator"
+	},
+	byXpathDic : {	
+		"SELECT_OWNER_OPRATOR_LINEAR_LAYOUT_FOR_VERIFYUSR"		:	"//android.widget.GridView[contains(@resource-id,'gv_landingPage')]/android.widget.LinearLayout[@index='1']",
+		"SELECT_OWNER_OPRATOR_LINEAR_LAYOUT_FOR_NON_VERIFYUSR" 	: 	"//android.widget.GridView[contains(@resource-id,'gv_landingPage')]/android.widget.LinearLayout[@index='0']",
+		"FULL_SCHEDULE_SCRN_FULL_SCDL_BTN" 						: 	"//android.widget.TextView[contains(@text,'Full Schedule')]"
+	},
+	byIDDic	 : {
+		"POPUP_MSG_HEADER"										:	"com.alta.boschedule.activities:id/txt_alert_message",
+		"POPUP_MSG_OK_BTN"										: 	"com.alta.boschedule.activities:id/btn_ok",
+		"POPUP_MSG_CANCEL_BTN"									: 	"com.alta.boschedule.activities:id/btn_cancel",
+		"LOGINSCREEN_PLEASE_LOGIN_OR_REGISTER"					: 	"com.alta.boschedule.activities:id/tv_login_register",
+		"LOGINSCREEN_EMAILFIELD_TB"								: 	"com.altametrics.rib.zipschedules.activities:id/emailIdView",
+		"LOGINSCREEN_PASSWORDFIELD_TB"							: 	"com.altametrics.rib.zipschedules.activities:id/passwordView",
+		"LOGINSCREEN_LOGIN_BTN" 								: 	"com.altametrics.rib.zipschedules.activities:id/loginButton",
+		"LOGINSCREEN_FORGOTPWD_LNK"								: 	"com.alta.boschedule.activities:id/tv_forgotPwd",
+		"MYSCHEDULESCREEN_WEEKSTARTDATE_DS"						: 	"com.alta.boschedule.activities:id/weekStartDateMySch",
+		"MYSCHEDULESCREEN_NORECORD_TXT"							: 	"com.alta.boschedule.activities:id/emptyText",
+		"MYSCHEDULESCREEN_HEADERTIME_TS"						: 	"com.alta.boschedule.activities:id/headerTime",
+		"SLIDER_ICN"											: 	"com.alta.boschedule.activities:id/slider",
+		"MENUSCREEN_LOGINUSERNAME_LBL"							: 	"com.alta.boschedule.activities:id/loginUsrName",
+		"MENUSCREEN_HOME_LBL"									: 	"com.alta.boschedule.activities:id/home",
+		"MENUSCREEN_CHANGEPASSWORD_LBL"							: 	"com.alta.boschedule.activities:id/changePwd",
+		"MENUSCREEN_LOGOUT_LBL"									: 	"com.alta.boschedule.activities:id/logout",
+		"MYSCHEDULESCREEN_PREVIOUSDATE_BTN"						: 	"com.alta.boschedule.activities:id/previous",
+		"MYSCHEDULESCREEN_SCHDAYHEADERROW_DATE_LBL"				: 	"com.alta.boschedule.activities:id/titlesection",
+		"MYSCHEDULESCREEN_SCHDAYHEADERROW_DAYSCHHRS_LBL"		: 	"com.alta.boschedule.activities:id/titldate",
+		"MYSCHEDULESCREEN_SCHSHIFTROW_TIMESLOT_LBL"				: 	"com.alta.boschedule.activities:id/title",
+		"MYSCHEDULESCREEN_SCHSHIFTROW_STRIDEN_LBL"				: 	"com.alta.boschedule.activities:id/titleentry",
+		"MYSCHEDULESCREEN_EMP_NAME"								: 	"com.alta.boschedule.activities:id/empName",
+		"MYSCHEDULESCREEN_NEXT_BTN"								: 	"com.alta.boschedule.activities:id/next",
+		"MY_SCHEDULE_LOGO"										:	"com.alta.boschedule.activities:id/logo",
+		"FORGOTSCREEN_TEMPORARY_PWD_TEXT"						: 	"com.alta.boschedule.activities:id/tv_temp_pwd_msg",
+		"FORGOTPWDSCREEN_EMAILFIELD_TB"							: 	"com.alta.boschedule.activities:id/et_forgotemailID",
+		"FORGOTPWDSCREEN_RESETPSWD_BTN"							: 	"com.alta.boschedule.activities:id/btn_reset_pwd",
+		"FORGOTPWDSCREEN_LOGIN_BTN"								: 	"com.alta.boschedule.activities:id/btn_login",
+		"CHANGEPWDSCREEN_CHNGPWDTXT_LBL"						: 	"com.alta.boschedule.activities:id/tv_changePwd",
+		"CHANGEPWDSCREEN_TEMPPWD_TB"							: 	"com.alta.boschedule.activities:id/et_tempPwd",
+		"CHANGEPWDSCREEN_NEWPWD_TB"								: 	"com.alta.boschedule.activities:id/newPwd",
+		"CHANGEPWDSCREEN_REENTERPWD_TB"							: 	"com.alta.boschedule.activities:id/confPwd",
+		"CHANGEPWSSCREEN_CHNGPWD_BTN"							: 	"com.alta.boschedule.activities:id/btn_changePwd",
+		"VERIFYDTLSCREEN_VERIFYSSN_TB"							: 	"com.alta.boschedule.activities:id/et_ssn_verify",
+		"VERIFYDTLSCREEN_VERIFYDOB_TB"							: 	"com.alta.boschedule.activities:id/et_dob_verify",
+		"VERIFYDTLSCREEN_VERIFY_BTN"							: 	"com.alta.boschedule.activities:id/btn_ssn_verify",
+		"VERIFY_DETAIL_SCREEN_AND_ROUND_IMAGE"					:	"com.alta.boschedule.activities:id/androundedimage",
+		"VERIFY_DETAIL_SCREEN_TEXT_HEADER"						:	"com.alta.boschedule.activities:id/tv_verify_details",
+		"VERIFYPINSCREEN_VERIFYPIN_TB"							: 	"com.alta.boschedule.activities:id/et_verify_pin",
+		"PAGELOADER_ICON"										: 	"com.alta.boschedule.activities:id/progressBar1",
+		"SELECT_OWNER_OPRATOR_MCD_LOGO"							: 	"com.alta.boschedule.activities:id/iv_logo",
+		"SELECT_OWNER_OPRATOR_TV_OWNER"							: 	"com.alta.boschedule.activities:id/tv_owner",
+		"VERIFYPINSCREEN_SELECTOWNERTEXTBTN"					:	"com.alta.boschedule.activities:id/btn_select_operator",
+		"TEXT_VIEW_NAME"										: 	"com.alta.boschedule.activities:id/textviewname",
+		"JOB_CODEID"											:	"com.alta.boschedule.activities:id/jobsche",                   
+		"DTL_SCREEN_BTN"										:	"com.alta.boschedule.activities:id/imageview",               
+		"WEEK_HOURS"											:	"com.alta.boschedule.activities:id/headerTime",                  
+		"MYSCHEDULESCREEN_SCHDAYHEADERROW_DAYSCHHRS_LBL"		: 	"com.alta.boschedule.activities:id/titldate",
+		"VERIFYPINSCREEN_VERIFY_BTN" 							: 	"com.alta.boschedule.activities:id/btn_verify",
+		"VERIFY_SCREEN_LOGO"									:	"com.alta.boschedule.activities:id/tv_verify_pin"
+	},
+	byClassNameDic : {
+	},
+	byLinkTextDic : {
+	},
+	byPartialTextDic :{
+	},
+	byTagNameDic : {
+	},
+	byAccessibilityIDDic :{
+	},
+	byCSSSelector :{
+	}			
+}
+
+
+
+
+
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	Text After Change-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+# TB = Text Box, BTN = Button, DS = Date Selector, TXT = text, TS = Time Selector, LBL = Label
+{
+	byNameDic : {
+		"SELECT_AN_OWNER_OPERATOR_LBL" 							: 	"Select an Owner Operator"
+	},
+	byXpathDic : {	
+		"SELECT_OWNER_OPRATOR_LINEAR_LAYOUT_FOR_VERIFYUSR"		:	"//android.widget.GridView[contains(@resource-id,'gv_landingPage')]/android.widget.LinearLayout[@index='1']",
+		"SELECT_OWNER_OPRATOR_LINEAR_LAYOUT_FOR_NON_VERIFYUSR" 	: 	"//android.widget.GridView[contains(@resource-id,'gv_landingPage')]/android.widget.LinearLayout[@index='0']",
+		"FULL_SCHEDULE_SCRN_FULL_SCDL_BTN" 						: 	"//android.widget.TextView[contains(@text,'Full Schedule')]"
+	},
+	byIDDic	 : {
+		"POPUP_MSG_HEADER"										:	"com.alta.boschedule.activities:id/txt_alert_message",
+		"POPUP_MSG_OK_BTN"										: 	"com.alta.boschedule.activities:id/btn_ok",
+		"POPUP_MSG_CANCEL_BTN"									: 	"com.alta.boschedule.activities:id/btn_cancel",
+		"LOGINSCREEN_PLEASE_LOGIN_OR_REGISTER"					: 	"com.alta.boschedule.activities:id/tv_login_register",
+		"LOGINSCREEN_EMAILFIELD_TB"								: 	"com.altametrics.rib.zipschedules.activities:id/emailIdView",
+		"LOGINSCREEN_PASSWORDFIELD_TB"							: 	"com.altametrics.rib.zipschedules.activities:id/passwordView",
+		"LOGINSCREEN_LOGIN_BTN" 								: 	"com.altametrics.rib.zipschedules.activities:id/loginButton",
+		"LOGINSCREEN_FORGOTPWD_LNK"								: 	"com.alta.boschedule.activities:id/tv_forgotPwd",
+		"MYSCHEDULESCREEN_WEEKSTARTDATE_DS"						: 	"com.alta.boschedule.activities:id/weekStartDateMySch",
+		"MYSCHEDULESCREEN_NORECORD_TXT"							: 	"com.alta.boschedule.activities:id/emptyText",
+		"MYSCHEDULESCREEN_HEADERTIME_TS"						: 	"com.alta.boschedule.activities:id/headerTime",
+		"SLIDER_ICN"											: 	"com.alta.boschedule.activities:id/slider",
+		"MENUSCREEN_LOGINUSERNAME_LBL"							: 	"com.alta.boschedule.activities:id/loginUsrName",
+		"MENUSCREEN_HOME_LBL"									: 	"com.alta.boschedule.activities:id/home",
+		"MENUSCREEN_CHANGEPASSWORD_LBL"							: 	"com.alta.boschedule.activities:id/changePwd",
+		"MENUSCREEN_LOGOUT_LBL"									: 	"com.alta.boschedule.activities:id/logout",
+		"MYSCHEDULESCREEN_PREVIOUSDATE_BTN"						: 	"com.alta.boschedule.activities:id/previous",
+		"MYSCHEDULESCREEN_SCHDAYHEADERROW_DATE_LBL"				: 	"com.alta.boschedule.activities:id/titlesection",
+		"MYSCHEDULESCREEN_SCHDAYHEADERROW_DAYSCHHRS_LBL"		: 	"com.alta.boschedule.activities:id/titldate",
+		"MYSCHEDULESCREEN_SCHSHIFTROW_TIMESLOT_LBL"				: 	"com.alta.boschedule.activities:id/title",
+		"MYSCHEDULESCREEN_SCHSHIFTROW_STRIDEN_LBL"				: 	"com.alta.boschedule.activities:id/titleentry",
+		"MYSCHEDULESCREEN_EMP_NAME"								: 	"com.alta.boschedule.activities:id/empName",
+		"MYSCHEDULESCREEN_NEXT_BTN"								: 	"com.alta.boschedule.activities:id/next",
+		"MY_SCHEDULE_LOGO"										:	"com.alta.boschedule.activities:id/logo",
+		"FORGOTSCREEN_TEMPORARY_PWD_TEXT"						: 	"com.alta.boschedule.activities:id/tv_temp_pwd_msg",
+		"FORGOTPWDSCREEN_EMAILFIELD_TB"							: 	"com.alta.boschedule.activities:id/et_forgotemailID",
+		"FORGOTPWDSCREEN_RESETPSWD_BTN"							: 	"com.alta.boschedule.activities:id/btn_reset_pwd",
+		"FORGOTPWDSCREEN_LOGIN_BTN"								: 	"com.alta.boschedule.activities:id/btn_login",
+		"CHANGEPWDSCREEN_CHNGPWDTXT_LBL"						: 	"com.alta.boschedule.activities:id/tv_changePwd",
+		"CHANGEPWDSCREEN_TEMPPWD_TB"							: 	"com.alta.boschedule.activities:id/et_tempPwd",
+		"CHANGEPWDSCREEN_NEWPWD_TB"								: 	"com.alta.boschedule.activities:id/newPwd",
+		"CHANGEPWDSCREEN_REENTERPWD_TB"							: 	"com.alta.boschedule.activities:id/confPwd",
+		"CHANGEPWSSCREEN_CHNGPWD_BTN"							: 	"com.alta.boschedule.activities:id/btn_changePwd",
+		"VERIFYDTLSCREEN_VERIFYSSN_TB"							: 	"com.alta.boschedule.activities:id/et_ssn_verify",
+		"VERIFYDTLSCREEN_VERIFYDOB_TB"							: 	"com.alta.boschedule.activities:id/et_dob_verify",
+		"VERIFYDTLSCREEN_VERIFY_BTN"							: 	"com.alta.boschedule.activities:id/btn_ssn_verify",
+		"VERIFY_DETAIL_SCREEN_AND_ROUND_IMAGE"					:	"com.alta.boschedule.activities:id/androundedimage",
+		"VERIFY_DETAIL_SCREEN_TEXT_HEADER"						:	"com.alta.boschedule.activities:id/tv_verify_details",
+		"VERIFYPINSCREEN_VERIFYPIN_TB"							: 	"com.alta.boschedule.activities:id/et_verify_pin",
+		"PAGELOADER_ICON"										: 	"com.alta.boschedule.activities:id/progressBar1",
+		"SELECT_OWNER_OPRATOR_MCD_LOGO"							: 	"com.alta.boschedule.activities:id/iv_logo",
+		"SELECT_OWNER_OPRATOR_TV_OWNER"							: 	"com.alta.boschedule.activities:id/tv_owner",
+		"VERIFYPINSCREEN_SELECTOWNERTEXTBTN"					:	"com.alta.boschedule.activities:id/btn_select_operator",
+		"TEXT_VIEW_NAME"										: 	"com.alta.boschedule.activities:id/textviewname",
+		"JOB_CODEID"											:	"com.alta.boschedule.activities:id/jobsche",                   
+		"DTL_SCREEN_BTN"										:	"com.alta.boschedule.activities:id/imageview",               
+		"WEEK_HOURS"											:	"com.alta.boschedule.activities:id/headerTime",                  
+		"MYSCHEDULESCREEN_SCHDAYHEADERROW_DAYSCHHRS_LBL"		: 	"com.alta.boschedule.activities:id/titldate",
+		"VERIFYPINSCREEN_VERIFY_BTN" 							: 	"com.alta.boschedule.activities:id/btn_verify",
+		"VERIFY_SCREEN_LOGO"									:	"com.alta.boschedule.activities:id/tv_verify_pin"
+	},
+	byClassNameDic : {
+	},
+	byLinkTextDic : {
+	},
+	byPartialTextDic :{
+	},
+	byTagNameDic : {
+	},
+	byAccessibilityIDDic :{
+	},
+	byCSSSelector :{
+	}			
+}

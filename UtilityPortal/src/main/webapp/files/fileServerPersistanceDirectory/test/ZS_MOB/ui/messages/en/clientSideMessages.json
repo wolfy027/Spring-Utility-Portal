@@ -1,0 +1,2597 @@
+[
+	{
+		"iid":"CONFIRMATION",
+		"msgStr":"Confirmation ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CONFIRMATION_REQIURED",
+		"msgStr":"Confirmation required. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMP_AVAILABLE",
+		"msgStr":"Employee is available between ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMP_NOT_AVAILABLE",
+		"msgStr":"Employee is not available. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MIN_WAGE_LAW_VOIL",
+		"msgStr":"Minimum Wage law has been violated. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WDT_LAW",
+		"msgStr":"Weekly DT law of  ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WOT_LAW",
+		"msgStr":"Weekly OT law of ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DDT_LAW",
+		"msgStr":"Daily DT law of  ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DOT_LAW",
+		"msgStr":"Daily OT law of  ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACA_LAW",
+		"msgStr":"Employee ACA of  ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"HRS_BREACHED",
+		"msgStr":"Hrs has breached. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MAX_HRS_PER_WEEK_VOIL",
+		"msgStr":"Maximum Hrs Per Week law of ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_MEAL_BREK_VOIL",
+		"msgStr":"Meal Break law breached. A break to be provided in a shift more than",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_END_TIME_VOIL",
+		"msgStr":"Shift end time is later than site close time ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_STR_TIME_VOIL",
+		"msgStr":"Shift start time is earlier than site open time ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MINOR_EMP_CNT_SCHEDULE_AFTR",
+		"msgStr":"Minor Employee cannot be scheduled after ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MINOR_EMP_CNT_SCHEDULE_BFR",
+		"msgStr":"Minor Employee cannot be scheduled before ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMP_DOES_NOT_BELONG",
+		"msgStr":"Employee does not belong to ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_DEPT",
+		"msgStr":"Select Department",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WDT_GREATER_THAN_DDT_VIOL",
+		"msgStr":"Weekly DT should be greater than Daily DT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NO_RECIPIENT",
+		"msgStr":"You can not send message without any recipient.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SEND_MSG_CNF",
+		"msgStr":"Do you want to send the message without the subject? ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MSG_SEND_FAIL",
+		"msgStr":" Failed to send the message. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MSG_SENT_CLN",
+		"msgStr":" Message Sent. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CHARACTERS",
+		"msgStr":"  characters. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CAN_CONTAIN_NUMBER",
+		"msgStr":" can contain only number  ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"IS_NOT_CORRECT",
+		"msgStr":" is not correct ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FORMAT",
+		"msgStr":" format.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CNT_BLANK",
+		"msgStr":" cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"IS_LESS_THAN",
+		"msgStr":" is less than",
+		"isClientMsg":true
+	},
+	{
+		"iid":"IS_GREATER_THAN",
+		"msgStr":" is greater than.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMAIL_CNT_BLNK",
+		"msgStr":" Email cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SERVER_NOT_REACHABLE",
+		"msgStr":"Server not accessible, please contact the administrator.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_EMAIL",
+		"msgStr":"Not a valid email.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PWD_CNT_BLNK",
+		"msgStr":"Password can not be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DDT_GREATER_THAN_DOT_VIOL",
+		"msgStr":"Daily DT should be greater than Daily OT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WDT_GREATER_THAN_WOT_VIOL",
+		"msgStr":"Weekly DT should be greater than Weekly OT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TEMPLATE_LOAD",
+		"msgStr":"Template Loaded.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SCH_COPY",
+		"msgStr":"Schedule Copied.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"OVRLAP_TIME_OFF_EXISTS",
+		"msgStr":" Overlapping Time Off Exists.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMP_IS_ON_TIMEOFF",
+		"msgStr":"Employee is on Time Off.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMP_SHARED",
+		"msgStr":"Shared Shift exists for the employee.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_OVERLAP_CLN",
+		"msgStr":"Shift Overlap.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NOTE_ADDED_C",
+		"msgStr":"Note Added Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NOTE_DELETED",
+		"msgStr":"Note Deleted.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ERROR_IN_UPDATE_PROJ_SALES",
+		"msgStr":"Error in updating projected Sales.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PRJ_SALES_UPDATED",
+		"msgStr":"Projected Sales has been updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WEEKLY_SCH_CLEAR",
+		"msgStr":"Weekly Schedule Cleared.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DAILY_SCH_CLEAR",
+		"msgStr":"Daily Schedule Cleared.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NO_TMPL_FOUND",
+		"msgStr":"No Templates found.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TEMPL_LOADED",
+		"msgStr":"Template Loaded.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_CREATED",
+		"msgStr":"Shift Created.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_UPDATE_PUBLISH",
+		"msgStr":"Shift Updated and Published.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_UPDATE",
+		"msgStr":"Shift Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_DELETED",
+		"msgStr":"Shift Deleted.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TIME_OFF_ADDED",
+		"msgStr":"Time Off Added.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TIME_OFF_UPDATED",
+		"msgStr":"Time Off Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TIME_OFF_DELETED",
+		"msgStr":"Time Off Deleted.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_ALREADY_ACCEPTED",
+		"msgStr":"This shift is already accepted.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_OFFER",
+		"msgStr":"Shift Offered/Shift Un Offered.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ERROR_IN_PERFORM_OPRTN",
+		"msgStr":"ERROR IN PERFORMING OPERATION.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNPAID_BRK_MORE_THAN_SHIFTHRS_VIOL",
+		"msgStr":" The Shift duration should be greater than unpaid break.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CANNOT_DELETE_OWNER",
+		"msgStr":"You do not have authorization to edit the owner of this organization.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CANNOT_UPDATE_EMP",
+		"msgStr":"You do not have authorization to edit this employee.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CANNOT_EDIT_SUPER_EMP",
+		"msgStr":"You do not have authorization to edit this employee.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CONTACT_MGR",
+		"msgStr":". Please contact your Manager.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_COWORKER_FOR_OFFER",
+		"msgStr":"Please select a co-worker to offer shift.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_TIMEOFF_TIME",
+		"msgStr":" Invalid TimeOff Time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ZIP_NOTIF_PREF_SAVE",
+		"msgStr":"Zip Schedules Notification Preferences Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ZIP_NOTIF_CLK_PREF_SAVE",
+		"msgStr":"Zip Clock Notification Preferences Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MSG_DELETED",
+		"msgStr":"Message(s) Deleted.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MSG_DELETE_ERROR",
+		"msgStr":"Failed To Delete.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CNT_DEL_HOME_STORE",
+		"msgStr":"Cannot Delete current site.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PAYRATE_LESS_THAN_MINWAGE_VIOL",
+		"msgStr":"Pay Rate cannot be less than Minimum Wage.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILL_REQUIRED_FIELD",
+		"msgStr":"Please fill all required fields.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNAUTH_ACCESS_MGR",
+		"msgStr":"You do not have authorization to ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ORG_OWNER",
+		"msgStr":" the owner of this organization .",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMP_WITH_EMP_TYPE",
+		"msgStr":" this employee.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CNT_DELETE_OWNER",
+		"msgStr":"Owner of this Organization cannot be Deleted.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CNT_SAVE_BLANK_SCH_AS_TEMPLATE",
+		"msgStr":"You can't save blank schedule as template.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TEMPLATE_SAVED_CLN",
+		"msgStr":"Template Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ENTER_TEMPLATE_NAME",
+		"msgStr":"Please enter Template Name.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILL_APPROPRIATE_VALUE",
+		"msgStr":"Please Fill Appropriate value.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_TIME_RANGE",
+		"msgStr":"Invalid Time Range.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"OPTHRS_SAVE",
+		"msgStr":"Operation Hours Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"AVAIL_UPDATE",
+		"msgStr":"Availability Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_ALREADY_DISAPPROVE",
+		"msgStr":"Shift Already Disapproved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DATA_SUBMIT_SUCCESS",
+		"msgStr":"DATA SUBMITTED SUCCESSFULLY.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ERROR_IN_PERFORM_OPERATION",
+		"msgStr":"ERROR IN PERFORMING OPERATION.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_APPLICANT",
+		"msgStr":"Please select Applicant from dropdown.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"REASON_REQUIRED_FOR_TIMEOFF",
+		"msgStr":"Time Off cannot be requested without reason.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TIMEOFF_INFO_SAVED",
+		"msgStr":"Time Off Information Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WOT_GREATER_THAN_DOT_VIOL",
+		"msgStr":"Weekly OT should be greater than Daily OT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WDT_GREATER_THAN_DOT_VIOL",
+		"msgStr":"Weekly DT should be greater than daily OT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DOT_LESS_THAN_24HRS_VIOL",
+		"msgStr":"Daily OT should not be greater than 24:00 hours.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WOT_GREATER_THAN_DDT_VIOL",
+		"msgStr":"Weekly OT should be greater than Daily DT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WDT_GREATER_THAN_WT_VIOL",
+		"msgStr":"Weekly DT should be greater than Weekly OT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LATEST_END_TIME_VIOL",
+		"msgStr":"Latest End Time should be after Earliest Start Time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DOT_LESS_THAN_DDT_VIOL",
+		"msgStr":"Daily DT should be greater than Daily OT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DDT_MORE_THAN_24HRS_VIOL",
+		"msgStr":"Daily DT should not be greater than 24:00 hours.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DDT_GREATER_THAN_WDT_VIOL",
+		"msgStr":"Weekly DT should be greater than Daily DT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WDT_MORE_THAN_168HRS_VIOL",
+		"msgStr":"Weekly DT should not be greater than 168:00 hours.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MAX_HRS_WEEK_MORE_THAN_168HRS_VIOL",
+		"msgStr":"Maximum hrs per week should not be greater than 168:00 hours.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MEAL_BREAK_MORE_THAN_24HRS_VIOL",
+		"msgStr":"Meal Break should not be greater than 24:00 hours.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MEAL_BREAK_LESS_THAN_15MINS_VIOL",
+		"msgStr":"Meal Break should not be less than 0:15hours.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"OPTHRS_SAVE",
+		"msgStr":"Operational Hours Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TEMPLATE_ALREDY_EXITS",
+		"msgStr":"Same Template name already exists. Please enter different name.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DDT_GREATER_THAN_DOT_VIOL",
+		"msgStr":"Daily DT should be greater than Daily OT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WDT_GREATER_THAN_WOT_VIOL",
+		"msgStr":"Weekly DT should be greater than Weekly OT.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LABOR_LAW_SAVE",
+		"msgStr":"Labor Laws Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NAME_CNT_BLANK",
+		"msgStr":"Full Name cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CNT_CONTAINT_SPCL_CHAR",
+		"msgStr":" Position Title cannot contain special character.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"AUTO_APPROVE_SETT_SAVE",
+		"msgStr":"Schedule Settings Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ORG_SETT_SAVED",
+		"msgStr":"Organization`s Settings Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ORG_PROF_SAVED",
+		"msgStr":"Organization Profile Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNAVAIL_ALL_DAY",
+		"msgStr":"Unavailable All Day",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ALL_DAY",
+		"msgStr":"All Day",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TYPE_TO_SEARCH",
+		"msgStr":"Type To Search",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LKP_POSITION",
+		"msgStr":" Position ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PENDING_MSG",
+		"msgStr":"Pending",
+		"isClientMsg":true
+	},
+	{
+		"iid":"GEN_INFO_SAVED",
+		"msgStr":"General Information Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APPROVAL",
+		"msgStr":"Approval",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WOT_MORE_THAN_168HRS_VIOL",
+		"msgStr":"Weekly OT should not be greater than 168:00 hours.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_SHIFT_TIME",
+		"msgStr":"Invalid Shift Time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APPPREF_EOCUST_ENABLEEMAIL",
+		"msgStr":"Email service has been disabled at Customer level.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APPPREF_ENABLEEMAIL",
+		"msgStr":"Email service has been disabled.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APPPREF_EOCUST_ENABLESMS",
+		"msgStr":"SMS service has been disabled at Customer level.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APPPREF_ENABLESMS",
+		"msgStr":"SMS service has been disabled.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMP_MDL_NAME",
+		"msgStr":"Add Employee",
+		"isClientMsg":true
+	},
+	{
+		"iid":"STDSHIFT_MDL_NAME",
+		"msgStr":"Standard Shift",
+		"isClientMsg":true
+	},
+	{
+		"iid":"STDSHIFT_DEFAULTLKOPTION",
+		"msgStr":"No Position",
+		"isClientMsg":true
+	},
+	{
+		"iid":"GBLSETTING_POSITION_DEFAULTLKOPTION",
+		"msgStr":"Select Department",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ZIPSCH_WIZARD_WELCOME_MSG",
+		"msgStr":"Let's get started and create schedules in a few minutes.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ZIPCLOCK_WIZARD_WELCOME_MSG",
+		"msgStr":"Let's get started enforcing labor schedules and preventing labor law violations.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ALTATABPAGE_SELECT_A_DAY_DEFAULTLKOPTION",
+		"msgStr":"Select a day",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_CREATED_PUBLISH",
+		"msgStr":"Shift Created and Published.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MIN_WAGE_LAW_ALERT",
+		"msgStr":"Alert : Employee's Wage is below than min wage.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CERT_EXPIRE",
+		"msgStr":" Certification has expired.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMPLOYEE_WITH_EMAIL_ID",
+		"msgStr":"An employee with email-id "
+	},
+	{
+		"iid":"ALREDY_EXISTS",
+		"msgStr":"already exists.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_BRK_TIME",
+		"msgStr":"Invalid Break Time. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_START_END_TIME_REQ",
+		"msgStr":"Please enter break start time and break end time both.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_START_END_TIME_INVALID",
+		"msgStr":"Break Start time or break End time is not valid.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_START_GRT_THAN_END_TIME",
+		"msgStr":"Break Start time can't be greater than break End time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_OVERLAP_WITH_SHIFT",
+		"msgStr":"Break Overlapping with shift.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_OVERLAP",
+		"msgStr":"Break Overlap.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_SHIFT_END_TIME",
+		"msgStr":"Shift end time is not selected.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_START_END_TIME_INVALID",
+		"msgStr":"Shift start time or end time is not valid.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLKIN_CNT_EQL_GRT_CLKOUT",
+		"msgStr":"ClockIn time can not more or same to ClockOut time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLKOUT_VOIL",
+		"msgStr":"ClockOut time can't be after current date.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CNT_ADD_MANUAL_PUNCH_FOR_PWEEK",
+		"msgStr":"You Can't add manual punch for the previous Week.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CNT_ADD_MANUAL_PUNCH_FOR_NWEEK",
+		"msgStr":"You Can't add manual punch for the Next Week.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_OVRLAP",
+		"msgStr":"Shift Overlap.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LAST_PUNCH_VOIL",
+		"msgStr":"You Didn't Out your last punch.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WEEK_STR_DATE_THAN_WEEK_END",
+		"msgStr":"Week Start Date should be earlier than  Week End Date.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DAY_OFFSET_CNT_NEGATIVE",
+		"msgStr":"Day Offset Cannot be Negative.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PUNCH_ALREDY_APPROVED",
+		"msgStr":"All Punches are already approved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SOME_PUNCH_NOT_CLKOUT",
+		"msgStr":"Some punches may not be clocked out.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APPROVE_CLOSE_ALL_PUCH_BFR_PUBLISH",
+		"msgStr":"Please approve or close all punches before publish Payroll.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLK_SETTING_SAVED",
+		"msgStr":"Clock Settings successfully saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"IMPORT_MDL_INVALID_MSG",
+		"msgStr":"will be rejected due to invalid",
+		"isClientMsg":true
+	},
+	{
+		"iid":"IMPORT_MDL_MISSING_MSG",
+		"msgStr":"will be rejected due to missing",
+		"isClientMsg":true
+	},
+	{
+		"iid":"IMPORT_MDL_ALREADY_EXIST_MSG",
+		"msgStr":"will be rejected as the",
+		"isClientMsg":true
+	},
+	{
+		"iid":"IMPORT_MDL_FILE_EXT_MSG",
+		"msgStr":"Invalid file. Please select CSV file only.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FIRST_NAME",
+		"msgStr":"First Name",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LAST_NAME",
+		"msgStr":"Last Name",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PHONE_NUMBER",
+		"msgStr":"Phone Number",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMAIL_ID",
+		"msgStr":"Email Id",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_OVERLAP_CLK",
+		"msgStr":"Shift Overlap.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ON_GOING_SHIFT_OVERLAP",
+		"msgStr":"The added punch details overlaps with an ongoing punch.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_IN_CLK_IN_OVERLAP",
+		"msgStr":"Break In time cannot be before Clock In time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_IN_CLK_OUT_OVERLAP",
+		"msgStr":"Break In time cannot be same/after Clock Out time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_OUT_CLK_OUT_OVERLAP",
+		"msgStr":"Break Out time cannot be after Clock Out time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_IN_EMPTY",
+		"msgStr":"Break In time cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_OUT_EMPTY",
+		"msgStr":"Break Out time cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_OUT_BRK_IN_OVERLAP",
+		"msgStr":"Break out time cannot be same/before BreakIn time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_IN_FUTURE",
+		"msgStr":"Break In time cannot be in future.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_OUT_FUTURE",
+		"msgStr":"Break Out time cannot be in future.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BRK_OVERLAP",
+		"msgStr":"There are one/more break(s) overlapping with each other.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLK_IN_EMPTY",
+		"msgStr":"Clock In time cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLK_OUT_FUTURE",
+		"msgStr":"Clock Out time cannot be in future.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLK_IN_FUTURE",
+		"msgStr":"Clock In time cannot be in future.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PREV_SHIFT_END_TIME_NULL",
+		"msgStr":"Clock Out time cannot be blank for historical punch.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EARLIEST_STARTTIME",
+		"msgStr":"Earliest start time",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LATEST_END_TIME",
+		"msgStr":"Latest end time",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MAX_HRS_WEEK",
+		"msgStr":"Max hours per week",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LATEST_END_TIME_ABS",
+		"msgStr":"Latest end time",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MINOR_TITLE2",
+		"msgStr":" has been breached.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MINOR_TITLE1",
+		"msgStr":" has been breached at ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MINOR_TITLE3",
+		"msgStr":" will breach in ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MINOR_TITLE4",
+		"msgStr":" will breach at ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"OT_TITLE1",
+		"msgStr":"OT has been breached by ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"OT_TITLE2",
+		"msgStr":"OT will breach in ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EOS_TITLE1",
+		"msgStr":"End Of Schedule was breached at",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EOS_TITLE2",
+		"msgStr":"End Of Schedule will breach at ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACA_TITLE1",
+		"msgStr":"ACA has been breached at ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACA_TITLE2",
+		"msgStr":"ACA will breach in ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BREAK_TITLE1",
+		"msgStr":"Break was breached at ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BREAK_TITLE2",
+		"msgStr":"Break will breach at ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PROJ_ACA_TITLE1",
+		"msgStr":" has run into ACA. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PROJ_ACA_TITLE2",
+		"msgStr":" might run into ACA. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PROJ_TITLE1",
+		"msgStr":" has worked ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PROJ_TITLE2",
+		"msgStr":" hours and is scheduled to work ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PROJ_TITLE3",
+		"msgStr":" more hours this week, making total projected hours for the week ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PROJ_OT_TITLE1",
+		"msgStr":" has run into OT. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PROJ_OT_TITLE2",
+		"msgStr":" might run into OT. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CUST_ENABLE_EMAIL",
+		"msgStr":"Email service has been disabled at Customer level.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DATAHASH_ENABLE_EMAIL",
+		"msgStr":"Email service has been disabled.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CUST_ENABLE_SMS",
+		"msgStr":"SMS service has been disabled at Customer level.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DATAHASH_ENABLE_SMS",
+		"msgStr":"SMS service has been disabled.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CUST_ENABLE_NOTIFICATION",
+		"msgStr":"Push Notification has been disabled at Customer level.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DATAHASH_ENABLE_NOTIFICATION",
+		"msgStr":"Push Notification has been disabled.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NO_SCHEDULE",
+		"msgStr":"No Schedule",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_EMP",
+		"msgStr":"Select Employee",
+		"isClientMsg":true
+	},
+	{
+		"iid":"VALID_DATE",
+		"msgStr":"Select valid dates.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"VALID_EMP",
+		"msgStr":"Select a valid Employee.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UPCOMING_SCH",
+		"msgStr":"No upcoming schedule.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLOCK_IN_ENTRY",
+		"msgStr":"Clock In",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLOCK_OUT_ENTRY",
+		"msgStr":"Clock Out",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BREAK_IN_ENTRY",
+		"msgStr":"Start Break",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BREAK_OUT_ENTRY",
+		"msgStr":"End Break",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLK_CONFIRMATION",
+		"msgStr":"Do you want to suggest ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TO_CLOCK_OUT",
+		"msgStr":" Clock Out?",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TO_BREAK_IN",
+		"msgStr":" take a break?",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TIME_OFF_ON",
+		"msgStr":" is on timeoff on ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TIME_OFF_FROM",
+		"msgStr":" is on timeoff from ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TIME_OFF_PARTIAL",
+		"msgStr":" is on partial timeoff on ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APPROVED_PUNCHES",
+		"msgStr":"Approved Punches",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNAPPROVED_PUNCHES",
+		"msgStr":"Unapproved Punches",
+		"isClientMsg":true
+	},
+	{
+		"iid":"COMPLIANT_PUNCHES",
+		"msgStr":"Compliant Punches",
+		"isClientMsg":true
+	},
+	{
+		"iid":"VIOLATED_PUNCHES",
+		"msgStr":"Violated Punches",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLK_EMPTY_DATA_MSG_HASH0",
+		"msgStr":"No Employees Clocked In.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLK_EMPTY_DATA_MSG_HASH1",
+		"msgStr":"No Employees on Break.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLK_EMPTY_DATA_MSG_HASH2",
+		"msgStr":"No Employee Record Available.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BREAK_VIOLATED",
+		"msgStr":"Break Has Been Violated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MINOR_VIOLATION",
+		"msgStr":"Minor Violation Occured.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"OT_VIOLATION",
+		"msgStr":"OT Violation Occured.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACA_VIOLATION",
+		"msgStr":"ACA Violation Occured.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PRO_HRS_ACA",
+		"msgStr":"Projected Hours to ACA",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PRO_HRS_OT",
+		"msgStr":"Projected Hours to OT",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLK_PRO_MDL",
+		"msgStr":"Do you want to delete this shift.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WEATHER_MSG",
+		"msgStr":"Weather forecast not",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WEATHER_AVAIL_MSG",
+		"msgStr":"available",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_BRK_IN",
+		"msgStr":"Invalid Break In time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_BRK_OUT",
+		"msgStr":"Invalid Break Out time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_START",
+		"msgStr":"Invalid Clock In time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_END",
+		"msgStr":"Invalid Clock Out time.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PAYROLL_ALREADY_FINALIZED",
+		"msgStr":"This week has already been finalized.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_FILE_FORMAT",
+		"msgStr":"Invalid format, please download sample file.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CANNOT_DELETE_SITE",
+		"msgStr":"Cannot delete this Site. Atleast one Site should be in your account.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ERROR_WIZARD_JSON",
+		"msgStr":"Error in Getting Resource metadata.json.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ERROR_RESOURCE",
+		"msgStr":"Error in Getting Resource.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ALREADY_SUBSCRIBED",
+		"msgStr":" already subscribed.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TRAIL_MSG1",
+		"msgStr":"Please click confirm to enable free trial of ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TRAIL_MSG2",
+		"msgStr":" edition for your sites. Confirm will take you to the My App page from where you can access ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CNT_COPY_PREV_DAY_SCH",
+		"msgStr":"Cannot copy schedule in past day.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NO_INF_TO_PRINT",
+		"msgStr":"No information to print. Please select parameters to print desired information.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACTUAL_HOURS",
+		"msgStr":"Actual Hours ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SCHEDULE_HOURS",
+		"msgStr":"Scheduled hours ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"HOURS",
+		"msgStr":"Hours",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACTUAL_VS_SCH",
+		"msgStr":"Actual vs Scheduled",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_OVERLAP_TIMEOFF",
+		"msgStr":"Shift overlaps with this Time Off request.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LABOR_BUDGET",
+		"msgStr":"Labor budget saved successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNABLE_LABOR_BUDGET",
+		"msgStr":"Unable to save labor budget.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_PAID_HRS",
+		"msgStr":"Invalid paid hours.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FREE_TRIAL_ENDED",
+		"msgStr":"Your account has been deactivated as free trial has ended. You can process the payment and activate your account from Manage Account > Manage App. ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACCOUNT_LOCKED",
+		"msgStr":"Your account has been deactivated due to failure in invoice payment. You can process the payment and activate your account from Manage Account > Manage Billing > Invoices.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ONLY_OWNER_BUY",
+		"msgStr":"You must be the account owner in order to buy a App.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DOT_MIN_VAL_VIOL",
+		"msgStr":"To enable Daily hours prior to Overtime set the parameter greater than zero.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WOT_MIN_VAL_VIOL",
+		"msgStr":"To enable Week hours prior to Overtime set the parameter greater than zero.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DDT_MIN_VAL_VIOL",
+		"msgStr":"To enable Daily hours prior to Double Time set the parameter greater than zero.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WDT_MIN_VAL_VIOL",
+		"msgStr":"To enable Week hours prior to Double Time set the parameter greater than zero.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MAX_HRS_WEEK_MIN_VAL_VIOL",
+		"msgStr":"To enable Maximum Hours Per Week set the parameter greater than zero.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_EMAIL_ID",
+		"msgStr":"Invalid email-id.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CSV_DEUPLICATE_EMAIL",
+		"msgStr":"Email-id is duplicate in csv file.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MISSING_FIRST_NAME",
+		"msgStr":"First name is missing.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_FIRST_NAME",
+		"msgStr":"Invalid first name.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MISSING_LAST_NAME",
+		"msgStr":"Last name is missing.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_LAST_NAME",
+		"msgStr":"Invalid last name.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_PHONE_NUMBER",
+		"msgStr":"Invalid phone number.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_MAX_HRS_WEEK",
+		"msgStr":"Invalid Max Hours per week.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LOADING_ERROR",
+		"msgStr":"Unable to load the file.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NO_DATA_TO_UPLOAD",
+		"msgStr":"There is no data to upload.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CSV_UPLOADED",
+		"msgStr":"CSV Uploaded Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NO_CSV",
+		"msgStr":"Upload a CSV file and then click next.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_CSV",
+		"msgStr":"Please Select CSV file",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UPLOAD_FILE",
+		"msgStr":"Upload A File",
+		"isClientMsg":true
+	},
+	{
+		"iid":"RESULT",
+		"msgStr":"Results",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PAYMENT_HEADER",
+		"msgStr":"Payment Message",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PAYMENT_FAILURE",
+		"msgStr":"Your payment has been Failed.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PAYMENT_SUCCESSFUL",
+		"msgStr":"Your payment has been received successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PAYMENT_PROCESSING1",
+		"msgStr":"Your current statement is in process.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PAYMENT_PROCESSING2",
+		"msgStr":"Please contact administrator for further information.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"REGISTERED_SITE_HEADER",
+		"msgStr":"You have successfully registered/unregistered your site(s).",
+		"isClientMsg":true
+	},
+	{
+		"iid":"REGISTERED_SITE_BODY",
+		"msgStr":"If registered please configure your app or tell your manager to configure it.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNSUBSCRIPTION_HEADER",
+		"msgStr":"Site Unsubscription.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNSUBSCRIPTION_BODY",
+		"msgStr":"All the data for unsubscribed sites will be Deleted in 30 days.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"JCCA_INFORMATION_UPDATED",
+		"msgStr":"Information has been updated successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"JCCA_FAILUER_MSG",
+		"msgStr":"Please try again later.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MAX_HR_PER_WEEK_EXCEEDED",
+		"msgStr":"Max Hours Per Week cannot be more than 168 hours.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SUPORT_MAIL",
+		"msgStr":"Thank you for submitting request, HubWorks support team will get back to you.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SUPORT_MAIL_FAILURE",
+		"msgStr":"Some problem occurred in submitting request. Please contact administrator.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"END_DATE_GRT_THN_SRT_DATE",
+		"msgStr":"End Date cannot be before Start Date.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"STR_RNG_CNT_MORE_END_RNG",
+		"msgStr":"End Range can not be equal or less than Start Range.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"RNG_CNT_BE_ZERO",
+		"msgStr":"Start Range or End Range cannot be zero.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMPLOYEES",
+		"msgStr":"Employees",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TOTAL_HOURS",
+		"msgStr":"Total Hours",
+		"isClientMsg":true
+	},
+	{
+		"iid":"STATUS",
+		"msgStr":"Status",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TOTAL_DOLLARS",
+		"msgStr":"Total Dollars",
+		"isClientMsg":true
+	},
+	{
+		"iid":"OPEN_PUNCH",
+		"msgStr":"Open Punch",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APPROVED",
+		"msgStr":"Approved",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNAPPROVED",
+		"msgStr":"Unapproved",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FORCAST_DEL_CNF",
+		"msgStr":"Are you sure you want to delete the forecast for the selected week?",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELETION",
+		"msgStr":"Deletion Confirmation",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELETE_CONF",
+		"msgStr":"Are You Sure? Selected Object will be deleted.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CONFIRM",
+		"msgStr":"Do You Confirm",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACTION_CONF",
+		"msgStr":"Please Confirm your Action",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ADD_POSITION",
+		"msgStr":"Add Position",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FORECASTED_VS_SCH",
+		"msgStr":"Forecasted Vs Scheduled",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MISSING_TIME_RANGE",
+		"msgStr":"Time Range is Missing.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CSV_DUPLICATE_TIME_RANGE",
+		"msgStr":"Duplicate Time Range.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MISSING_VALUE",
+		"msgStr":"Value is missing.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_VALUE",
+		"msgStr":"Value is invalid.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FORECASTED_HOURS",
+		"msgStr":"Forecasted Hours ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMP_RPT",
+		"msgStr":"Employee Performance Report",
+		"isClientMsg":true
+	},
+	{
+		"iid":"AVG_SCH_HRS_PER_WK",
+		"msgStr":"Average Schedule Hours Per Week:   ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"AVG_ACT_HRS_PER_WK",
+		"msgStr":"Average Actual Hours Per Week: ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"AVG_OT_HRS_WK",
+		"msgStr":" Average OT Hours Per Week:  ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TTL_NUM_PUNCH",
+		"msgStr":" Total Number Of Punches:   ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PUNCH_NEDED_APP",
+		"msgStr":" Punches Needed Approval:  ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"AVG_VIOL_PR_WK",
+		"msgStr":"Average Violations Per Week:  ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TTL_NUM_VIOL",
+		"msgStr":"Total Number of Violations:  ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"VIOLATION",
+		"msgStr":"Violations",
+		"isClientMsg":true
+	},
+	{
+		"iid":"START_WK",
+		"msgStr":"Start of Week",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACT_VS_SCH",
+		"msgStr":"Actual vs. Scheduled",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TTL",
+		"msgStr":"Total",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TTL_SCH_HRS",
+		"msgStr":"Total Scheduled Hours",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TTL_ACT_HRS",
+		"msgStr":"Total Actual Hours",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TTL_OT_HRS",
+		"msgStr":"Total OT Hours",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PREF_SAVED",
+		"msgStr":"Preferences Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DATE",
+		"msgStr":"Date",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACTIONS",
+		"msgStr":"Actions",
+		"isClientMsg":true
+	},
+	{
+		"iid":"STAFF_O_S_RPT",
+		"msgStr":"Staff Over/Short Report",
+		"isClientMsg":true
+	},
+	{
+		"iid":"date",
+		"msgStr":"Date: ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FRCST_SALES",
+		"msgStr":"Forecasted Sales: $",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SCH_HRS",
+		"msgStr":"Scheduled Hours:",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SCH_DOLLAR",
+		"msgStr":"Scheduled Dollars:",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FRCST_HRS",
+		"msgStr":"Forecasted Hours:",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LBR_PRCNT",
+		"msgStr":" Labor Percentage:",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TIME_INTERVAL",
+		"msgStr":"Time Interval",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FRCST_TRNS",
+		"msgStr":"Forecasted Transaction",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FRCST_STAFF",
+		"msgStr":"Forecasted Staff ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SCH_STAFF",
+		"msgStr":"Scheduled Staff",
+		"isClientMsg":true
+	},
+	{
+		"iid":"STAFF_VARIANCE",
+		"msgStr":"Staff Varience",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MGMT_COVERAGE",
+		"msgStr":"Management Coverage",
+		"isClientMsg":true
+	},
+	{
+		"iid":"STAR_COFFEE_INTER",
+		"msgStr":"STARBUCKS COFFEE INTERNATIONAL",
+		"isClientMsg":true
+	},
+	{
+		"iid":"REGION",
+		"msgStr":"Region",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MRKT",
+		"msgStr":"Market",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACT",
+		"msgStr":"(Actual)",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FRCST",
+		"msgStr":"(Forecast)",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LBR_MTRIX",
+		"msgStr":"Labor Matrix",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WK_ENDING",
+		"msgStr":"Week Ending",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WKL_TOTAL",
+		"msgStr":"Weekly Total",
+		"isClientMsg":true
+	},
+	{
+		"iid":"STR_NUMBER",
+		"msgStr":"Store Number",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DISTRICT",
+		"msgStr":"District",
+		"isClientMsg":true
+	},
+	{
+		"iid":"AREA",
+		"msgStr":"Area",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WKL_LBR_RPT",
+		"msgStr":"WEEKLY LABOR REPORT",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DAILY_TRANS_ADDED",
+		"msgStr":"Daily Transactions Added.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DAILY_TRANS_UPDATED",
+		"msgStr":"Daily Transactions Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EVENT_UPDATED",
+		"msgStr":"Event Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CONTACT_UPDATED",
+		"msgStr":"Contact Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FORMS_UPDATED",
+		"msgStr":"Forms Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TRG_MTRL_UPDATED",
+		"msgStr":"Training Material Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"RSRC_UPDATED",
+		"msgStr":"Resources Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TMPLT_UPDATED",
+		"msgStr":"Templates Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NAME_CANT_BLANK",
+		"msgStr":"Name cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EVENT_NAME_CANT_BLANK",
+		"msgStr":"Event name cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILE_NAME_CANT_BLANK",
+		"msgStr":"File name cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ENTER_VALID_CATEGORY",
+		"msgStr":"Please select a valid category.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ENTER_NOTE",
+		"msgStr":"Please enter a Note.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ENTER_COMMENT",
+		"msgStr":"Please enter a comment.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_TYPE_ACTION",
+		"msgStr":"You must select a Type and Action.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_TYPE",
+		"msgStr":"Please select a Type.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_ACTION",
+		"msgStr":"Please select an Action.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELETE_RECURRING_EVENT",
+		"msgStr":"Would you like to delete this event, All recurring events in the series will also be deleted.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELETE_NONRECURRING_EVENT",
+		"msgStr":"Are you sure you want to delete this event? Click Yes to delete, No to cancel.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UPDATE_RECURRING_EVENT",
+		"msgStr":"Would you like to change this event? All recurring events in the series will be changed.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELETE_MSG",
+		"msgStr":"Delete successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UPDATE_MSG",
+		"msgStr":"Updated successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ATTACHMENT_ADDED",
+		"msgStr":"Attachment added successfully",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ATTACHMENT_DELETED",
+		"msgStr":"Attachment Removed Successfully",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CRITICAL",
+		"msgStr":"Critical",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NON_CRITICAL",
+		"msgStr":"Non Critical",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ADDRESS_CANNOT_BLANK",
+		"msgStr":"Address cannot be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELETE_CUST_EXP",
+		"msgStr":"Are you sure you want to delete this Customer Experience? Click Yes to delete, No to cancel.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELETE_NOTES",
+		"msgStr":"Are you sure you want to delete this note? Click Yes to delete, No to cancel.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILE_DELETE_CNF",
+		"msgStr":"Are you sure you want to delete this file? Click Yes to delete, No to cancel.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NO_FILE_ATTACH",
+		"msgStr":"There is no file attached.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILE_DELETED",
+		"msgStr":"File Deleted Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILE_UPDATED",
+		"msgStr":"File updated Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILE_PROCESSED",
+		"msgStr":"File uploaded successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILE_TO_LARGE",
+		"msgStr":"File is too large, please choose another file (Max:5MB).",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNPAID_DUES_HEADER",
+		"msgStr":"Failed Dues.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNPAID_DUES_BODY",
+		"msgStr":"Please process all your failed statements to proceed with subscription changes.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UPLOAD_FILE",
+		"msgStr":"Upload File",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CONTACT_DELETE",
+		"msgStr":"Contact Deleted Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EVENT_DELETE",
+		"msgStr":"Event deleted successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNABLE_TO_EXPORT_DAY_CLOSED",
+		"msgStr":"Unable to Export Data. Day is Closed.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NO_RECIPIENT",
+		"msgStr":"Please select at least one Recipient.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DESC_REQUIRE",
+		"msgStr":"Please enter description.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BUY_NOW",
+		"msgStr":"Buy Now",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TAKE_ACTION",
+		"msgStr":"Take Action",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CONF_ACC_NO",
+		"msgStr":"Confirm account number is not match.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"STRT_DATE_SELECTED",
+		"msgStr":"Start date must be selected.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"END_DATE_SELECTED",
+		"msgStr":"End date must be selected.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"END_DATE_LESS_THEN_START",
+		"msgStr":"End date is not less then start date.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ACTION",
+		"msgStr":"Action",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHARED_SUCCESSFULLY",
+		"msgStr":"shared successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NOTES_DELETE",
+		"msgStr":"Note deleted Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CUST_EXP_DELETE",
+		"msgStr":"Customer Experience deleted Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ENABLE_STDALN_ERR",
+		"msgStr":"To enable the Standalone either Biometrics or Pincode should be enabled.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ORG_TITLE",
+		"msgStr":"Organization",
+		"isClientMsg":true
+	},
+	{
+		"iid":"LABOR_TITLE",
+		"msgStr":"Labor Laws",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMPLOYEE_TITLE",
+		"msgStr":"Employees",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLOUD_STORAGE_TITLE",
+		"msgStr":"Cloud Storage",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BUSINESS_TITLE",
+		"msgStr":"Business",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EO_TASKS_TITLE",
+		"msgStr":"Tasks",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EO_TASK_LIST_TITLE",
+		"msgStr":"Task Checklists",
+		"isClientMsg":true
+	},
+	{
+		"iid":"GLOBAL_TITLE",
+		"msgStr":"Clock Settings",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SITE_SETTING_TITLE",
+		"msgStr":"Site Clock Settings",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APP_NT_CONFIGURED",
+		"msgStr":" application has not been configured yet by the Administrator. Please contact your administrator to access it.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EN",
+		"msgStr":"English",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ES",
+		"msgStr":"Spanish",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FR",
+		"msgStr":"French",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ZH",
+		"msgStr":"Chinese",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SCH_CLS_DAY",
+		"msgStr":"Closed Day",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SCH_EMP",
+		"msgStr":"EMPLOYEE",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TOTALS",
+		"msgStr":"TOTALS",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CNT_DEL_CNF",
+		"msgStr":"Are you sure you want to delete this contact? Click Yes to delete, Click No to Cancel.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"REDBOOK_NOTIF_PREF_SAVE",
+		"msgStr":"Zip Red Book Notification Preferences Saved.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELTE_VOLDISC_CNF",
+		"msgStr":"Are you sure you want to delete this volume Discount? Click Yes to delete, No to cancel.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"VOLDISC_DELETED",
+		"msgStr":"Volume Discount Deleted Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELTE_CREDIT_CNF",
+		"msgStr":"Are you sure you want to delete this Customer Credit? Click Yes to delete, No to cancel.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CREDIT_CANT_BE_BLANK",
+		"msgStr":"Credit reason can not be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DISC_ID_CANT_BE_BLANK",
+		"msgStr":"Discount Id can not be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DISC_FRIENDLYNAME_CANT_BE_BLANK",
+		"msgStr":"Friendly Name can not be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DESC_LIMITED_MSG",
+		"msgStr":"Please write description within 1000 characters.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DISC_ID_EXISTS",
+		"msgStr":"Discount ID already exists.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DISC_ID_CANT_BE_BLANK",
+		"msgStr":"Discount ID can not be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"COUPON_CODE_ALREADY_APPLIED",
+		"msgStr":"is already applied.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ZERO_AMOUNT_CANT_BE_ADDED",
+		"msgStr":"Zero amount credit cannot be added.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"BUY_BTN",
+		"msgStr":"Buy",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CANCEL_BTN",
+		"msgStr":"Cancel",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DISCONNECT_CLOUD_STORAGE",
+		"msgStr":"If you switch to other cloud storage, Data from the previous cloud storage will not be acessible. Do you want to disconnect this cloud storage?",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLOUD_NOT_CONNECTED",
+		"msgStr":"You are not connected to cloud or your access to cloud service has been expired. Please contact the Administrator.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CONNECT_TO_CLOUD",
+		"msgStr":"Please connect to cloud server.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELETE_CLOUD_ERR",
+		"msgStr":"Problem in deleting from cloud server.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DELETE_ERR",
+		"msgStr":"Error occurred while deleting.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EVENT_UPDATE_ERR",
+		"msgStr":"Error occurred while updating the Event.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UPDATE_ERR",
+		"msgStr":"Error occurred while updating.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UPLOAD_ERR",
+		"msgStr":"Problem in uploading files on Server. Please Try Again.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CONNECT_CLOUD_IN_ORG_SETTING",
+		"msgStr":"Please connect to cloud service in Global Settings.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNABLE_TO_SAVE",
+		"msgStr":"Unable to Save Data",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNABLE_TO_PROCEED",
+		"msgStr":"Unable to Proceed Request",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNABLE_TO_UPDATE",
+		"msgStr":"Unable to Update.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SESSION_TIMEOUT",
+		"msgStr":"Session has been timed out. Please relogin",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILE_NOT_FOUND",
+		"msgStr":"File not found on your cloud Server.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DISCONNECT_TO_CLOUD",
+		"msgStr":"Disconnected to cloud server successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CLOUD_CONNECTED",
+		"msgStr":"Connected to cloud server successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CANCLE_CLOUD_CONNECTED",
+		"msgStr":"You have cancled to connect to cloud storage.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"FILE_CONNECT_CLOUD_CNF",
+		"msgStr":"HubWorks has been disconnected from your cloud storage account, Do you want to Reconnect to cloud storage?",
+		"isClientMsg":true
+	},
+	{
+		"iid":"VOL_DISC_DETAIL",
+		"msgStr":"Volume Discount Detail",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CPN_DISC_DETAIL",
+		"msgStr":"Coupon Discount Detail",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APPROVED",
+		"msgStr":"Approved",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DISAPPROVED",
+		"msgStr":"Disapproved",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PENDING_APPROVAL",
+		"msgStr":"Pending Approval",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SWITCH_CLOUD",
+		"msgStr":"Switched to another cloud successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVOICE_PENDING_PROCESS",
+		"msgStr":"Pending statement(s) has been processed successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DT_UPDATE",
+		"msgStr":"Daily Transactions Updated Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UNAUTH_FOR_ACCESS_APP",
+		"msgStr":"You Do Not Have Access To Use This Application.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CC_INFORMATION_REMOVED",
+		"msgStr":"Credit Card information has been removed successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"UPGRATE_BTN",
+		"msgStr":"Upgrade",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DEGRATE_BTN",
+		"msgStr":"Degrade",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CURRENT_BTN",
+		"msgStr":"Current",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SUBSCRIBED_BTN",
+		"msgStr":"Subscribed",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_CATG",
+		"msgStr":"Please select a Category.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PAYMENT_FAILURE_ADD_SITE",
+		"msgStr":"Your payment has been failed.Site has been added to your organization.Please go to manage app to subscribe it.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SITE_ADDED",
+		"msgStr":"Site added successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SITE_ADDED_SUBSCRIBED",
+		"msgStr":"Site added and subscribed to application(s) successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CHOOSE_AN_INDUSTRY_ERR",
+		"msgStr":"Choose any Business and its Sub-Category.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DAILY",
+		"msgStr":"Daily",
+		"isClientMsg":true
+	},
+	{
+		"iid":"WEEKLY",
+		"msgStr":"Weekly",
+		"isClientMsg":true
+	},
+	{
+		"iid":"MONTHLY",
+		"msgStr":"Monthly",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DESC_CANT_BE_BLANK",
+		"msgStr":"Description can't be blank.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SELECT_ONE_CHKLIST",
+		"msgStr":"Choose at least one task checklist.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"NO_BILLING_DETAIL",
+		"msgStr":"No billing detail available for the selected invoice.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_TIME_OVERLAP",
+		"msgStr":"All shifts should have different time slots.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EMP_STRENGTH_EXCEEDED",
+		"msgStr":"The Employee strength for the site is more than the chosen edition.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_FILE_NAME",
+		"msgStr":"File name should not be blank or should not contain",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_CONTACT_NAME",
+		"msgStr":"Contact Name should contain special characters other than",
+		"isClientMsg":true
+	},
+	{
+		"iid":"SHIFT_CNT_OVERLAP",
+		"msgStr":"Shift cannot overlap.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TASK_COMPLETED",
+		"msgStr":"Task Status Updated.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TASK_FOLLOWED",
+		"msgStr":"Task Followed/Unfollowed Successfully.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TASK_COMNT_ADDED",
+		"msgStr":"Comment Added.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ASSOCIATED_EDITION_SAME",
+		"msgStr":"Edition should be same for all the associated application(s).",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APP_NT_CONFIGURED_MOB",
+		"msgStr":" Application has not been configured yet by the Administrator.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"INVALID_PASSWORD",
+		"msgStr":"Your password should be atleast eight characters long. It should include alphabets, one or more numerical digits and special characters e.g @,$ etc.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"EOLOG_DESC_REQUIRED",
+		"msgStr":"Please enter a description.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"IS_CLOSE_DAY",
+		"msgStr":" is close day.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"ZR_SETTING_TITLE",
+		"msgStr":" Setting",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CMNT_EXCEED_THE_LNTH",
+		"msgStr":" Please write comment within 1000 characters",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CURR_CONNECTED_CLOUD",
+		"msgStr":"You are currently connected to ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"PLZ_CONNECT_CLOUD",
+		"msgStr":" Please connect to ",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TO_DONWLOAD_CLOUD_FILE",
+		"msgStr":" to download this file.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TO_DELETE_CLOUD_FILE",
+		"msgStr":" to delete this file.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"TO_UPDATE_CLOUD_FILE",
+		"msgStr":" to update this file.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"DATE_DIFF_GRT_SIX",
+		"msgStr":" Date Range selection of more than Six weeks is not allowed.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"CUSTOMER_NOT_EXIST",
+		"msgStr":"Customer Does not Exists.",
+		"isClientMsg":true
+	},
+	{
+		"iid":"APP_NOT_EXIST",
+		"msgStr":"APP Does Not Exists.",
+		"isClientMsg":true
+	}
+	
+]
